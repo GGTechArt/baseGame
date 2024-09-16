@@ -36,3 +36,11 @@ sysinfo.txt
 
 # End of https://www.gitignore.io/api/unity 
 /Base/Library
+Base/Library/ArtifactDB
+Base/Library/ArtifactDB
+Base/Library/Bee/backend1.traceevents
+Base/Library/Bee/fullprofile.json
+Base/Library/Bee/tundra.digestcache
+Base/Library/ilpp.pid
+Base/Library/SourceAssetDB
+Base/UserSettings/Layouts/default-2023.dwlt
