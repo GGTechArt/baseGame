@@ -80,3 +80,5 @@ Base/Library/SourceAssetDB
 Base/Logs/AssetImportWorker0-prev.log
 Base/Logs/AssetImportWorker1-prev.log
 Base/UserSettings/Layouts/default-2023.dwlt
+/Base/Library
+/Base/Temp
