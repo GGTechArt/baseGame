@@ -70,3 +70,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Base/Library/ArtifactDB
+Base/Library/Bee/backend1.traceevents
+Base/Library/Bee/fullprofile.json
+Base/Library/Bee/tundra.digestcache
+Base/Library/Bee/TundraBuildState.state.map
+Base/Library/ilpp.pid
+Base/Library/SourceAssetDB
+Base/Logs/AssetImportWorker0-prev.log
+Base/Logs/AssetImportWorker1-prev.log
+Base/UserSettings/Layouts/default-2023.dwlt
