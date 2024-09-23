@@ -26,20 +26,16 @@ public class Bullet : MonoBehaviour
 
         if (dir.magnitude <= distanceThisframe)
         {
-            HitTarget();
+            //HitTarget();
             return;
         }
 
         transform.Translate(dir.normalized * distanceThisframe, Space.World);
     }
 
-    void HitTarget()
+    void Damage (Transform enemy)
     {
-        //Aca se pueden asignar las particulas
-        //GameObject effectIns = (GameObject)Instantiate(//crear el game object impactEffect, transform.position, transform.rotation);
-        //Destroy(effectIns, 2f);
+        //Enemy e = enemy.GetComponent<Enemy>();
 
-        Destroy(target.gameObject);
-        Destroy(gameObject);
     }
 }

@@ -6,6 +6,8 @@ public class Node : MonoBehaviour
     public static Node instance;
 
     public Color hoverColor;
+    public Color notEnoughMoneyColor;
+
     public Vector3 positionOffset;
 
     [Header("Optional")]
@@ -47,6 +49,17 @@ public class Node : MonoBehaviour
 
         if (!buildManager.CanBuild)
             return;
+
+        if(buildManager.HasQuanta)
+        {
+            rend.material.color = hoverColor;
+        }
+        else
+        {
+            rend.material.color = notEnoughMoneyColor;
+        }
+        
+        
 
         rend.material.color = hoverColor;
     }
