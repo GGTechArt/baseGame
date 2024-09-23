@@ -1,20 +1,20 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Node : MonoBehaviour
 {
+    public static Node instance;
+
     public Color hoverColor;
     public Vector3 positionOffset;
 
-    public RadialMenu radialMenu;
-    public bool activateMenu;
-
-    private GameObject turret;
+    [Header("Optional")]
+    public GameObject turret;
 
     private Renderer rend;
     private Color startColor;
 
     BuildManager buildManager;
-
 
     void Start()
     {
@@ -24,32 +24,28 @@ public class Node : MonoBehaviour
         buildManager = BuildManager.instance;
     }
 
+    public Vector3 GetBuildPosition()
+    {
+        return transform.position + positionOffset;
+    }
+
     private void OnMouseDown()
     {
-        if(activateMenu == false)
-        {
-            radialMenu.Open();
-            activateMenu = true;
-        }
-
-        if(turret != null) 
-        {
-            Debug.Log("");
+        if (EventSystem.current.IsPointerOverGameObject())
             return;
-        }
 
-        if (buildManager.GetTurretToBuild() == null)
+        if (!buildManager.CanBuild)
             return;
- 
-        //Build a turret
-        GameObject turretToBuild = BuildManager.instance.GetTurretToBuild();
-        turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
 
+        buildManager.BuildTurretOn(this);
     }
     //Estudiar y diseñar el input de VR para este llamado.
     void OnMouseEnter()
     {
-        if (buildManager.GetTurretToBuild() == null)
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
+        if (!buildManager.CanBuild)
             return;
 
         rend.material.color = hoverColor;
@@ -59,4 +55,5 @@ public class Node : MonoBehaviour
     {
         rend.material.color = startColor;
     }
+
 }
