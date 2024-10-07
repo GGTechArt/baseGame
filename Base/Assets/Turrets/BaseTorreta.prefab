@@ -251,10 +251,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   range: 6
   partoToRotate: {fileID: 6256162085884985606}
-  rotationSpeed: 10
-  fireRate: 1
+  rotationSpeed: 200
+  fireRate: 0.1
   bulletPrefab: {fileID: 5207708799284221545, guid: 7a156e9e729b9ee4ea7ed1fd3dc19732, type: 3}
   firePoint: {fileID: 6483805387827270650}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
   enemyTag: Enemy
 --- !u!1 &7991119527512206546
 GameObject:

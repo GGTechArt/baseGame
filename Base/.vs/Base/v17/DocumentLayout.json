@@ -1,18 +1,128 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\",
+  "WorkspaceRootPath": "C:\\Unity\\baseGame\\Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\proyectos\\base\\assets\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\proyectos\\base\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\basedamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\basedamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\unity\\basegame\\base\\assets\\basecurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\basecurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\basedamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\basedamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\healthuibar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\healthuibar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\interfaces\\idamageable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interfaces\\idamageable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\ihealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\ihealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\icurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\icurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\wavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\wavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\scriptables\\wavedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptables\\wavedataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\wavedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\buildcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\buildcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\timercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\timercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\lookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\lookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\shopingameuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\shopingameuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\Proyectos\\Base\\assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Unity\\baseGame\\Base\\assets\\scripts\\scriptables\\characterso.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptables\\characterso.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +137,381 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Node.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Node.cs",
-              "RelativeDocumentMoniker": "Assets\\Node.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Node.cs",
-              "RelativeToolTip": "Assets\\Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "ToolTip": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "..\\..\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAADABAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T04:15:14.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Turret.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Scripts\\Turret.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Scripts\\Turret.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwFYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T03:45:00.128Z",
+              "WhenOpened": "2024-10-05T20:02:25.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Bullet.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\Proyectos\\Base\\Assets\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAUAAAAAAAAAA==",
+              "Title": "IAgentMovable.cs",
+              "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "ToolTip": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "RelativeToolTip": "..\\..\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T03:42:52.495Z",
+              "WhenOpened": "2024-10-05T19:45:28.975Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HealthUIBar.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthUIBar.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "RelativeToolTip": "Assets\\HealthUIBar.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowD0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:22:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:19:59.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICurable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "RelativeDocumentMoniker": "Assets\\ICurable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "RelativeToolTip": "Assets\\ICurable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:37:25.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\HealthComponent.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "RelativeToolTip": "Assets\\HealthComponent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T03:27:46.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\IHealth.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "RelativeToolTip": "Assets\\IHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:58:42.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseDamager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "RelativeDocumentMoniker": "Assets\\BaseDamager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "RelativeToolTip": "Assets\\BaseDamager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:16:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseDamageable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\BaseDamageable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "RelativeToolTip": "Assets\\BaseDamageable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:19:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WavesController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\WavesController.cs",
+              "RelativeDocumentMoniker": "Assets\\WavesController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\WavesController.cs",
+              "RelativeToolTip": "Assets\\WavesController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwC4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T02:22:58.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\EnemyController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:28:19.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T01:40:51.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelData.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\LevelData.cs",
+              "RelativeToolTip": "Assets\\LevelData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T15:04:01.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BulletController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BulletController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BulletController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:29:02.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceInstallerManager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:54:43.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseCurable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "RelativeDocumentMoniker": "Assets\\BaseCurable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "RelativeToolTip": "Assets\\BaseCurable.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:44:07.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:45:03.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:57:18.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SceneContextInstaller.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:59:58.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WaveDataSO.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T15:05:36.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CharacterSO.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\CharacterSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scriptables\\CharacterSO.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\CharacterSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scriptables\\CharacterSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T15:40:39.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WaveData.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "RelativeDocumentMoniker": "Assets\\WaveData.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "RelativeToolTip": "Assets\\WaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:20:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BuildController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BuildController.cs",
+              "RelativeDocumentMoniker": "Assets\\BuildController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BuildController.cs",
+              "RelativeToolTip": "Assets\\BuildController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T03:02:00.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TimerController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "RelativeDocumentMoniker": "Assets\\TimerController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "RelativeToolTip": "Assets\\TimerController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T01:45:02.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ServiceInstallerBase.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:55:48.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProjectContextInstaller.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:57:29.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAudioManager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:51:41.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Node.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Node.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Node.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Node.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T20:06:39.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Turret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:57:44.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ShopInGameUIHandler.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\ShopInGameUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\ShopInGameUIHandler.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\ShopInGameUIHandler.cs",
+              "RelativeToolTip": "Assets\\ShopInGameUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:42:45.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LookAt.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "RelativeDocumentMoniker": "Assets\\LookAt.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "RelativeToolTip": "Assets\\LookAt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:35:21.134Z"
             }
           ]
         }
