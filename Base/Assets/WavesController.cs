@@ -5,28 +5,32 @@ using UnityEngine;
 
 public class WavesController : MonoBehaviour
 {
+    LevelData levelData;
+
     WaveDataSO wavesData;
     WaveData currentWaveData;
 
     public Transform spawPoint;
     private int waveIndex = 0;
 
-    List<IDamageable> enemies = new List<IDamageable>();
+    List<CharacterConfig> enemies = new List<CharacterConfig>();
     int enemiesRemaining;
 
-    private void Start()
+    public void InitializeComponent()
     {
-        //wavesData = ServiceLocator.GetService<GameManager>().LevelData.Waves;
+        levelData = ServiceLocator.GetService<GameManager>().LevelData;
+        wavesData = levelData.Waves;
+
+        CharacterConfig.OnCharacterDestroyed += EnemyKilled;
     }
 
     public void SpawnWave()
     {
         StartCoroutine(SpawnWaveCoroutine());
     }
+
     IEnumerator SpawnWaveCoroutine()
     {
-        wavesData = ServiceLocator.GetService<GameManager>().LevelData.Waves;
-
         if (waveIndex < wavesData.WaveDataList.Count)
         {
             enemies.Clear();
@@ -35,10 +39,18 @@ public class WavesController : MonoBehaviour
             for (int i = 0; i < currentWaveData.EnemiesAmmount; i++)
             {
                 int randomEnemy = Random.Range(0, currentWaveData.Enemies.Count);
-                //enemies.Add(SpawnEnemy(currentWaveData.Enemies[randomEnemy]));
+                GameObject spawnedEnemy = SpawnEnemy(currentWaveData.Enemies[randomEnemy]);
+                CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
+                controller.ConfigureCharacter();
+                enemies.Add(controller);
                 float enemyDistance = Random.Range(currentWaveData.MinRateTime, currentWaveData.MaxRateTime);
                 yield return new WaitForSeconds(enemyDistance);
             }
+        }
+
+        else
+        {
+            Debug.Log("Finalizadas Waves");
         }
     }
 
@@ -48,12 +60,17 @@ public class WavesController : MonoBehaviour
         SpawnWave();
     }
 
-    public void EnemyKilled(GameObject enemy)
+    public void EnemyKilled(CharacterConfig character)
     {
-        //if (enemies.Contains(enemy))
-        //{
-        //    enemies.Remove(enemy);
-        //}
+        if (enemies.Contains(character))
+        {
+            enemies.Remove(character);
+
+            if (enemies.Count <= 0)
+            {
+                NextWave();
+            }
+        }
     }
 
     GameObject SpawnEnemy(EnemyDataSO enemyData)

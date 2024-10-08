@@ -16,17 +16,24 @@ public class GameManager : ServiceInstallerBase<GameManager>
     private void Awake()
     {
         Debug.Log("Inicia la escena");
-
-     
     }
 
     private void Start()
     {
-        StartGame();
+        PrepareGame();
+    }
+    public void PrepareGame()
+    {
+        _timer.OnTimeFinished += StartGame;
+
+        _waves.InitializeComponent();
+        _timer.StartTimer(1f);
     }
 
     public void StartGame()
     {
+        _timer.OnTimeFinished -= StartGame;
+
         _waves.SpawnWave();
     }
 
