@@ -2,23 +2,58 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : ServiceInstallerBase<GameManager>
 {
-    private bool gameEnded = false;
-    private void Update()
-    {
-        if (gameEnded)
-            return;
+    public LevelData LevelData { get => _levelData; set => _levelData = value; }
+    [SerializeField] LevelData _levelData;
+    public TimerController Timer { get => _timer; set => _timer = value; }
+    [SerializeField] TimerController _timer;
+    public WavesController Waves { get => _waves; set => _waves = value; }
+    [SerializeField] WavesController _waves;
+    public BuildController Build { get => _build; set => _build = value; }
+    [SerializeField] BuildController _build;
 
-        if(PlayerStats.Lives <= 0)
-        {
-            EndGame();
-        }
+    private void Awake()
+    {
+        Debug.Log("Inicia la escena");
     }
 
-    void EndGame()
+    private void Start()
     {
-        gameEnded = true;
-        Debug.Log("Game over");
+        PrepareGame();
+    }
+    public void PrepareGame()
+    {
+        _timer.OnTimeFinished += StartGame;
+
+        _waves.InitializeComponent();
+        _timer.StartTimer(1f);
+    }
+
+    public void StartGame()
+    {
+        _timer.OnTimeFinished -= StartGame;
+
+        _waves.SpawnWave();
+    }
+
+    public void PauseGame()
+    {
+
+    }
+    public void ResumeGame()
+    {
+
+    }
+
+    public void FinishGame()
+    {
+
+    }
+
+    protected override GameManager CreateService()
+    {
+        ServiceLocator.RegisterService(this);
+        return this;
     }
 }
