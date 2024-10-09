@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class WavesController : MonoBehaviour
 {
-    LevelData levelData;
+    LevelDataSO levelData;
 
     WaveDataSO wavesData;
     WaveData currentWaveData;

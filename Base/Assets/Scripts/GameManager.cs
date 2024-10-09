@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GameManager : ServiceInstallerBase<GameManager>
 {
-    public LevelData LevelData { get => _levelData; set => _levelData = value; }
-    [SerializeField] LevelData _levelData;
+    public LevelDataSO LevelData { get => _levelData; set => _levelData = value; }
+    [SerializeField] LevelDataSO _levelData;
     public TimerController Timer { get => _timer; set => _timer = value; }
     [SerializeField] TimerController _timer;
     public WavesController Waves { get => _waves; set => _waves = value; }
