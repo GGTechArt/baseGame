@@ -15,7 +15,7 @@ MonoBehaviour:
   _waveDataList:
   - _enemies:
     - {fileID: 11400000, guid: 35745635dc95304438b730bd042e4ac0, type: 2}
-    _enemiesAmmount: 15
+    _enemiesAmmount: 3
     _minRateTime: 0.2
     _maxRateTime: 1
     _nextWaveTime: 0

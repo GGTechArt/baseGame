@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class WavesController : MonoBehaviour
 {
+    public delegate void WavesFinishedHandler();
+    public WavesFinishedHandler WavesFinished;
+
     LevelDataSO levelData;
 
     WaveDataSO wavesData;
@@ -39,9 +42,10 @@ public class WavesController : MonoBehaviour
             for (int i = 0; i < currentWaveData.EnemiesAmmount; i++)
             {
                 int randomEnemy = Random.Range(0, currentWaveData.Enemies.Count);
-                GameObject spawnedEnemy = SpawnEnemy(currentWaveData.Enemies[randomEnemy]);
+                CharacterSO characterData = currentWaveData.Enemies[randomEnemy];
+                GameObject spawnedEnemy = SpawnEnemy((EnemyDataSO)characterData);
                 CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
-                controller.ConfigureCharacter();
+                controller.ConfigureCharacter(characterData);
                 enemies.Add(controller);
                 float enemyDistance = Random.Range(currentWaveData.MinRateTime, currentWaveData.MaxRateTime);
                 yield return new WaitForSeconds(enemyDistance);
@@ -50,6 +54,7 @@ public class WavesController : MonoBehaviour
 
         else
         {
+            WavesFinished?.Invoke();
             Debug.Log("Finalizadas Waves");
         }
     }

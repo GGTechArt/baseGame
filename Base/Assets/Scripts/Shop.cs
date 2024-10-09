@@ -13,7 +13,7 @@ public class Shop : MonoBehaviour
     private void Start()
     {
         buildManager = BuildManager.instance;
-        node = Node.instance;
+        //node = Node.instance;
     }
     public void SelectStandarTurret()
     {

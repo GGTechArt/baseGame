@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turret : MonoBehaviour
+public class Turret : MonoBehaviour, IBuildable
 {
     private Transform target;
 
@@ -19,6 +19,13 @@ public class Turret : MonoBehaviour
     public Transform firePoint;
 
     [SerializeField] LayerMask targetLayer;
+    public BuildableItemSO data => turretData;
+
+    public TowerSO turretData;
+    TurretUpdatesSO updates;
+    TurretStats currentStats;
+
+    int currentUpdate = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -62,13 +69,13 @@ public class Turret : MonoBehaviour
         if (fireCountdown <= 0)
         {
             Shoot();
-            fireCountdown += fireRate;
+            fireCountdown += currentStats.FireRate;
         }
     }
 
     void Shoot()
     {
-        GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         BulletController bullet = bulletGO.GetComponent<BulletController>();
 
         if (bullet != null)
@@ -81,5 +88,23 @@ public class Turret : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, range);
+    }
+
+    public void Configure(BuildableItemSO data)
+    {
+        turretData = (TowerSO)data;
+        updates = (TurretUpdatesSO)turretData.Updates;
+        currentStats = updates.UpdatesList[currentUpdate];
+    }
+
+    public bool TryUpdate()
+    {
+        return currentUpdate + 1 < updates.UpdatesList.Count ? true : false;
+    }
+
+    void IBuildable.Update()
+    {
+        currentUpdate++;
+        currentStats = updates.UpdatesList[currentUpdate];
     }
 }

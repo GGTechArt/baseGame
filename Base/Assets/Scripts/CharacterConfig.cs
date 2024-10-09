@@ -9,16 +9,18 @@ public class CharacterConfig : MonoBehaviour
     [SerializeField] EnemyMovement movement;
     [SerializeField] HealthComponent health;
     [SerializeField] BaseDamageable _damageable;
-    [SerializeField] BaseCurable _curable;
+    BaseCurable _curable;
+
+    public BaseDamageable Damageable { get => _damageable; set => _damageable = value; }
 
     private void Awake()
     {
 
     }
 
-    public void ConfigureCharacter()
+    public void ConfigureCharacter(CharacterSO data)
     {
-        health = new HealthComponent();
+        health = new HealthComponent(data.Health);
         _damageable = new BaseDamageable(health);
         _curable = new BaseCurable(health);
 
@@ -27,12 +29,22 @@ public class CharacterConfig : MonoBehaviour
 
     public void CharacterDestroyed()
     {
-        _damageable.OnDeath -= CharacterDestroyed;
+        CharacterDestroyed(true);
+    }
+
+    public void CharacterDestroyed(bool destroy)
+    {
+        Damageable.OnDeath -= CharacterDestroyed;
         OnCharacterDestroyed.Invoke(this);
+
+        if (destroy)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnDestroy()
     {
-        CharacterDestroyed();
+        CharacterDestroyed(false);
     }
 }

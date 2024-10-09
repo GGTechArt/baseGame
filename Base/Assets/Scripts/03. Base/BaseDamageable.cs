@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+[Serializable]
 public class BaseDamageable : IDamageable
 {
     public delegate void DamageReceivedHandler();
@@ -9,7 +10,7 @@ public class BaseDamageable : IDamageable
     public delegate void DeathHandler();
     public DeathHandler OnDeath;
 
-    HealthComponent healthValue;
+    [SerializeField] HealthComponent healthValue;
 
     public BaseDamageable(HealthComponent healthValue)
     {
@@ -18,9 +19,9 @@ public class BaseDamageable : IDamageable
 
     public virtual void ReceiveDamage(float damage)
     {
-        float health = healthValue.GetHealth();
+        float health = healthValue.GetHealth() - damage;
 
-        if (health - damage <= 0)
+        if (health <= 0)
         {
             healthValue.SetHealth(0);
             OnDeath?.Invoke();
@@ -28,7 +29,7 @@ public class BaseDamageable : IDamageable
 
         else
         {
-            healthValue.SetHealth(health - damage);
+            healthValue.SetHealth(health);
             OnDamageReceived?.Invoke();
         }
     }

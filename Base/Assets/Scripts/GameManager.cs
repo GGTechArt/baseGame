@@ -12,10 +12,12 @@ public class GameManager : ServiceInstallerBase<GameManager>
     [SerializeField] WavesController _waves;
     public BuildController Build { get => _build; set => _build = value; }
     [SerializeField] BuildController _build;
+    public ScoreController Score { get => _score; set => _score = value; }
+    [SerializeField] ScoreController _score;
 
     private void Awake()
     {
-        Debug.Log("Inicia la escena");
+
     }
 
     private void Start()
@@ -25,6 +27,7 @@ public class GameManager : ServiceInstallerBase<GameManager>
     public void PrepareGame()
     {
         _timer.OnTimeFinished += StartGame;
+        _waves.WavesFinished += FinishGame;
 
         _waves.InitializeComponent();
         _timer.StartTimer(1f);

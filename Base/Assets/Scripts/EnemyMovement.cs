@@ -27,7 +27,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (waypointIndex >= Waypoints.point.Length - 1)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             return;
         }
 
