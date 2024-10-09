@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sceneName: Level 1
   _waves: {fileID: 11400000, guid: 40dd8e2a2e7e4a74d95e440bfae328a6, type: 2}
+  _availableItems:
+  - {fileID: 11400000, guid: 7b618413e30bf4a40a7ca59bae274983, type: 2}
+  - {fileID: 11400000, guid: 9d319e242d1afa64d9ecfa72d86f6b0c, type: 2}

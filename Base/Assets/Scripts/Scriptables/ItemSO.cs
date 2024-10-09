@@ -11,4 +11,9 @@ public class ItemSO : ScriptableObject
     [SerializeField] int _cost;
     [SerializeField] string _itemName;
     [SerializeField] GameObject _prefab;
+
+    public Sprite Icon { get => _icon; set => _icon = value; }
+    public int Cost { get => _cost; set => _cost = value; }
+    public string ItemName { get => _itemName; set => _itemName = value; }
+    public GameObject Prefab { get => _prefab; set => _prefab = value; }
 }
