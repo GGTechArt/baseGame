@@ -6,8 +6,8 @@ using UnityEngine;
 [Serializable]
 public class UserData
 {
-    public float Score { get => _score; set => _score = value; }
     [SerializeField] float _score;
+    public float Score { get => _score; set => _score = value; }
 
     public UserData(float score)
     {

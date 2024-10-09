@@ -1,10 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.IO;
-using System.Text;
-using Unity.Android.Types;
 
 public class DataManager : ServiceInstallerBase<DataManager>
 {
@@ -27,6 +24,11 @@ public class DataManager : ServiceInstallerBase<DataManager>
         }
     }
 
+    public void LoadData()
+    {
+        ValidateData();
+    }
+
     public void ValidateData()
     {
         if (!File.Exists(_userDataPath))
@@ -36,15 +38,23 @@ public class DataManager : ServiceInstallerBase<DataManager>
 
             _data = new UserData(0);
         }
-
         else
         {
             _data = LoadData<UserData>();
         }
     }
-    public void LoadData()
+
+    public T LoadData<T>()
     {
-        ValidateData();
+        string _data = File.ReadAllText(_userDataPath);
+        return JsonUtility.FromJson<T>(_data);
+    }
+
+    public void SaveData<T>(T type)
+    {
+        string _json = JsonUtility.ToJson(type);
+        File.WriteAllText(_userDataPath, _json);
+        Debug.Log("Se han guardado los ajustes del juego");
     }
 
     public void DeleteData()
@@ -58,18 +68,6 @@ public class DataManager : ServiceInstallerBase<DataManager>
         DeleteData();
         PlayerPrefs.DeleteAll();
         LoadData();
-    }
-
-    public T LoadData<T>()
-    {
-        string _data = File.ReadAllText(_userDataPath);
-        return JsonUtility.FromJson<T>(_data);
-    }
-
-    public void SaveData<T>(T type)
-    {
-        string _json = JsonUtility.ToJson(type);
-        File.WriteAllText(_userDataPath, _json);
     }
 
     protected override DataManager CreateService()
