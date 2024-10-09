@@ -1760,10 +1760,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8d11feabd717f40813178ff988f2ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  installers:
-  - {fileID: 6727565905128564090, guid: 1e4f86c7534b0dc40843ecc69730d687, type: 3}
-  - {fileID: 4982827066405348994, guid: f2dcd628dc3bc304bad8342602b5f2bb, type: 3}
   installersToInstantiate:
+  - {fileID: 4982827066405348994, guid: f2dcd628dc3bc304bad8342602b5f2bb, type: 3}
+  - {fileID: 6727565905128564090, guid: 1e4f86c7534b0dc40843ecc69730d687, type: 3}
+  installers:
   - {fileID: 1124048500}
 --- !u!4 &1430074467
 Transform:

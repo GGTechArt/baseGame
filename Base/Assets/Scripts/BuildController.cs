@@ -67,5 +67,6 @@ public class BuildController : MonoBehaviour
     public void UpdateBuild(IBuildable buildable)
     {
         buildable.Update();
+        manager.Score.RemoveScore(buildable.data.Cost);
     }
 }

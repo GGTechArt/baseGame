@@ -24,17 +24,17 @@ public class CharacterConfig : MonoBehaviour
         _damageable = new BaseDamageable(health);
         _curable = new BaseCurable(health);
 
-        _damageable.OnDeath += CharacterDestroyed;
+        _damageable.OnDeath += CharacterDeath;
     }
 
-    public void CharacterDestroyed()
+    public void CharacterDeath()
     {
         CharacterDestroyed(true);
     }
 
     public void CharacterDestroyed(bool destroy)
     {
-        Damageable.OnDeath -= CharacterDestroyed;
+        Damageable.OnDeath -= CharacterDeath;
         OnCharacterDestroyed.Invoke(this);
 
         if (destroy)

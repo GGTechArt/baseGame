@@ -5,9 +5,10 @@ using System.IO;
 
 public class DataManager : ServiceInstallerBase<DataManager>
 {
+    [SerializeField] WorldDataSO _worldData;
     UserData _data;
 
-    string _userDataPath = "UserData";
+    string _userDataPath = "/UserData";
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class DataManager : ServiceInstallerBase<DataManager>
     public void InitializeComponent()
     {
         _userDataPath = Application.persistentDataPath + _userDataPath;
+        Debug.Log(_userDataPath);
 
         if (_data == null)
         {
@@ -35,9 +37,10 @@ public class DataManager : ServiceInstallerBase<DataManager>
         {
             FileStream _stream = File.Create(_userDataPath);
             _stream.Close();
-
-            _data = new UserData(0);
+            _data = new UserData(0, _worldData);
+            SaveData(_data);
         }
+
         else
         {
             _data = LoadData<UserData>();
