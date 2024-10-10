@@ -7,14 +7,17 @@ public class LevelEvaluatorController : MonoBehaviour
     GameManager gameManager;
     DataManager data;
 
+    int stars;
+
     private void Start()
     {
         gameManager = ServiceLocator.GetService<GameManager>();
         data = ServiceLocator.GetService<DataManager>();
     }
+
     public void Evaluate()
     {
-        int stars = 0;
+        stars = 0;
         int enemiesKilled = gameManager.Waves.GetEnemiesKilled();
 
         foreach (var item in gameManager.LevelData.StarsValues)
@@ -31,5 +34,10 @@ public class LevelEvaluatorController : MonoBehaviour
             levelData.CompleteLevel(stars);
             data.SaveAllData();
         };
+    }
+
+    public int GetStars()
+    {
+        return stars;
     }
 }
