@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [Serializable]
@@ -20,5 +21,10 @@ public class UserData
         {
             _levels.Add(new LevelData(world.Levels[i].LevelID, false));
         }
+    }
+
+    public LevelData GetLevelDataByID(string id)
+    {
+        return Levels.Exists(x => x.LevelID == id) ? Levels.FirstOrDefault(x => x.LevelID == id) : null;
     }
 }

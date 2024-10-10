@@ -14,6 +14,8 @@ public class GameManager : ServiceInstallerBase<GameManager>
     [SerializeField] BuildController _build;
     public ScoreController Score { get => _score; set => _score = value; }
     [SerializeField] ScoreController _score;
+    public LevelEvaluatorController Evaluator { get => _evaluator; set => _evaluator = value; }
+    [SerializeField] LevelEvaluatorController _evaluator;
 
     private void Awake()
     {
@@ -28,6 +30,12 @@ public class GameManager : ServiceInstallerBase<GameManager>
     {
         _timer.OnTimeFinished += StartGame;
         _waves.WavesFinished += FinishGame;
+        _waves.EnemiesKilled += FinishGame;
+
+        if (!_levelData)
+        {
+            _levelData = ServiceLocator.GetService<DataManager>().LevelData;
+        }
 
         _waves.InitializeComponent();
         _timer.StartTimer(1f);
@@ -51,7 +59,7 @@ public class GameManager : ServiceInstallerBase<GameManager>
 
     public void FinishGame()
     {
-
+        _evaluator.Evaluate();
     }
 
     protected override GameManager CreateService()

@@ -8,6 +8,9 @@ public class WavesController : MonoBehaviour
     public delegate void WavesFinishedHandler();
     public WavesFinishedHandler WavesFinished;
 
+    public delegate void EnemiesKilledHandler();
+    public EnemiesKilledHandler EnemiesKilled;
+
     LevelDataSO levelData;
 
     WaveDataSO wavesData;
@@ -17,14 +20,14 @@ public class WavesController : MonoBehaviour
     private int waveIndex = 0;
 
     List<CharacterConfig> enemies = new List<CharacterConfig>();
-    int enemiesRemaining;
+    [SerializeField] int enemiesKilled = 0;
 
     public void InitializeComponent()
     {
         levelData = ServiceLocator.GetService<GameManager>().LevelData;
         wavesData = levelData.Waves;
 
-        CharacterConfig.OnCharacterDestroyed += EnemyKilled;
+        CharacterConfig.OnCharacterDestroyed += EnemyDestroyed;
     }
 
     public void SpawnWave()
@@ -44,9 +47,14 @@ public class WavesController : MonoBehaviour
                 int randomEnemy = Random.Range(0, currentWaveData.Enemies.Count);
                 CharacterSO characterData = currentWaveData.Enemies[randomEnemy];
                 GameObject spawnedEnemy = SpawnEnemy((EnemyDataSO)characterData);
-                CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
-                controller.ConfigureCharacter(characterData);
-                enemies.Add(controller);
+                if (spawnedEnemy)
+                {
+                    CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
+                    controller.ConfigureCharacter(characterData);
+                    controller.Damageable.OnDeath += EnemyKilled;
+                    enemies.Add(controller);
+                }
+
                 float enemyDistance = Random.Range(currentWaveData.MinRateTime, currentWaveData.MaxRateTime);
                 yield return new WaitForSeconds(enemyDistance);
             }
@@ -54,7 +62,6 @@ public class WavesController : MonoBehaviour
 
         else
         {
-            WavesFinished?.Invoke();
             Debug.Log("Finalizadas Waves");
         }
     }
@@ -65,17 +72,41 @@ public class WavesController : MonoBehaviour
         SpawnWave();
     }
 
-    public void EnemyKilled(CharacterConfig character)
+    public void EnemyKilled()
+    {
+        enemiesKilled++;
+
+        if (enemies.Count <= 0)
+        {
+            EnemiesKilled?.Invoke();
+        }
+    }
+
+    public void EnemyDestroyed(CharacterConfig character)
     {
         if (enemies.Contains(character))
         {
+            character.Damageable.OnDeath -= EnemyKilled;
             enemies.Remove(character);
 
             if (enemies.Count <= 0)
             {
-                NextWave();
+                if (waveIndex + 1 < wavesData.WaveDataList.Count)
+                {
+                    NextWave();
+                }
+
+                else
+                {
+                    WavesFinished?.Invoke();
+                }
             }
         }
+    }
+
+    public int GetEnemiesKilled()
+    {
+        return enemiesKilled;
     }
 
     GameObject SpawnEnemy(EnemyDataSO enemyData)
