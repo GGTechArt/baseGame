@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TestDani.unity
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 1ef4b8d5673774d53905fa4d2fccd907
+  - enabled: 1
+    path: Assets/Scenes/LevelSelectorScene.unity
     guid: 2c6c250637e024e31a14d3cc9d9a6d16
   - enabled: 1
     path: Assets/Scenes/test.unity
