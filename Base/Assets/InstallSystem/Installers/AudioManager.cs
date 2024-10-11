@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using static UnityEngine.Rendering.DebugUI;
 using UnityEngine.Rendering;
+using NUnit.Framework;
 
 public class AudioManager : ServiceInstallerBase<AudioManager>
 {
@@ -28,7 +29,7 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
     List<AudioSource> musicSources = new List<AudioSource>();
     List<AudioSource> sfxSources = new List<AudioSource>();
 
-    private void Start()
+    private void Awake()
     {
         musicMixerGroup = mixer.FindMatchingGroups("Music")[0];
         sfxMixerGroup = mixer.FindMatchingGroups("Sfx")[0];
@@ -55,11 +56,9 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
             sfxSources.Add(sfxSource);
         }
 
-        if (PlayerPrefs.HasKey("MusicVolume"))
-        {
-            ChangeMusicVolume(PlayerPrefs.GetFloat("MusicVolume"));
-            ChangeSfxVolume(PlayerPrefs.GetFloat("SfxVolume"));
-        }
+
+        ChangeMusicVolume(GetMusicVolume());
+        ChangeSfxVolume(GetSfxVolume());
 
         PlayMainMusic("Musica 1");
     }
@@ -133,18 +132,32 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
 
     public void ChangeSfxVolume(float newVolume)
     {
-        sfxVolume = Mathf.Log10(Mathf.Clamp(newVolume, 0.01f, 1f)) * 20;
-        PlayerPrefs.SetFloat("SfxVolume", sfxVolume);
-        mixer.SetFloat("SfxVolume", sfxVolume);
-        sfxVolumeIsChanged?.Invoke(sfxVolume);
+        PlayerPrefs.SetFloat("SfxVolume", newVolume); // Guarda el valor lineal
+        sfxVolume = Mathf.Log10(Mathf.Clamp(newVolume, 0.01f, 1f)) * 20; // Aplica la conversión logarítmica para el AudioMixer
+        mixer.SetFloat("SfxVolume", sfxVolume); // Ajusta el mezclador
+        sfxVolumeIsChanged?.Invoke(newVolume); // Llama al evento con el valor lineal
     }
 
     public void ChangeMusicVolume(float newVolume)
     {
-        musicVolume = Mathf.Log10(Mathf.Clamp(newVolume, 0.01f, 1f)) * 20;
-        PlayerPrefs.SetFloat("MusicVolume", musicVolume);
-        mixer.SetFloat("MusicVolume", musicVolume);
-        musicVolumeIsChanged?.Invoke(musicVolume);
+        PlayerPrefs.SetFloat("MusicVolume", newVolume); // Guarda el valor lineal
+        musicVolume = Mathf.Log10(Mathf.Clamp(newVolume, 0.01f, 1f)) * 20; // Aplica la conversión logarítmica para el AudioMixer
+        mixer.SetFloat("MusicVolume", musicVolume); // Ajusta el mezclador
+        musicVolumeIsChanged?.Invoke(newVolume); // Llama al evento con el valor lineal
+    }
+
+    public float GetSfxVolume()
+    {
+        if (PlayerPrefs.HasKey("SfxVolume"))
+            return PlayerPrefs.GetFloat("SfxVolume");
+        return 1; // Valor por defecto
+    }
+
+    public float GetMusicVolume()
+    {
+        if (PlayerPrefs.HasKey("MusicVolume"))
+            return PlayerPrefs.GetFloat("MusicVolume");
+        return 1;
     }
 
     protected override AudioManager CreateService()
