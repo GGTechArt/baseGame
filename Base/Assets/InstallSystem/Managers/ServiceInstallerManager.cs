@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 public class ServiceInstallerManager : MonoBehaviour
 {
-    [SerializeField] protected ServiceInstallerBase[] installers;
     [SerializeField] protected ServiceInstallerBase[] installersToInstantiate;
+    [SerializeField] protected ServiceInstallerBase[] installers;
     protected List<GameObject> installerGO = new List<GameObject>();
 
     protected virtual void Awake()
     {
-        foreach (ServiceInstallerBase installer in installers)
+        foreach (ServiceInstallerBase installer in installersToInstantiate)
         {
             GameObject installerInstance = Instantiate(installer).gameObject;
             installerInstance.transform.SetParent(transform);
@@ -18,11 +18,9 @@ public class ServiceInstallerManager : MonoBehaviour
             installerGO.Add(installerInstance);
         }
 
-        foreach (ServiceInstallerBase installer in installersToInstantiate)
+        foreach (ServiceInstallerBase installer in installers)
         {
-            installer.transform.SetParent(transform);
             installer.GetComponent<IServiceInstaller>().InstallService();
-            installerGO.Add(installer.gameObject);
         }
 
         if (!FindFirstObjectByType<ProjectContextInstaller>())

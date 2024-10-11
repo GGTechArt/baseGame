@@ -11,17 +11,12 @@ public class BulletController : MonoBehaviour
     public void Seek(Transform _target)
     {
         target = _target;
-
         StartCoroutine(MoveTowardsPointB(target));
     }
 
     void HitTarget()
     {
-        //Aca se pueden asignar las particulas
-        //GameObject effectIns = (GameObject)Instantiate(//crear el game object impactEffect, transform.position, transform.rotation);
-        //Destroy(effectIns, 2f);
-
-        damager.SetDamage(target.GetComponent<IDamageable>());
+        damager.SetDamage(target.GetComponent<CharacterConfig>().Damageable);
         Destroy(gameObject);
     }
 

@@ -10,7 +10,14 @@ public class BaseDamager : MonoBehaviour, IDamager
 
     public void SetDamage(IDamageable damageable)
     {
-        Debug.Log("Hace daño");
-        damageable.ReceiveDamage(damage);
+        if (damageable != null)
+            damageable.ReceiveDamage(damage);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        CharacterConfig character;
+        if (other.TryGetComponent(out character))
+            SetDamage(character.Damageable);
     }
 }

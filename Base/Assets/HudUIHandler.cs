@@ -19,14 +19,18 @@ public class HudUIHandler : MonoBehaviour
 
     public void InstantiateItems()
     {
-        for (int i = 0; i < manager.LevelData.AvailableItems.Count; i++)
+        if (manager.LevelData.AvailableItems.Count > 0)
         {
-            int index = i;
-            GameObject itemGO = Instantiate(shopItem, shopScroll.content);
-            ItemSO item = manager.LevelData.AvailableItems[index];
-            itemGO.GetComponent<Button>().onClick.AddListener(() => manager.Build.SelectItem(item));
-            itemGO.transform.Find("Icon").GetComponent<Image>().sprite = item.Icon;
+            for (int i = 0; i < manager.LevelData.AvailableItems.Count; i++)
+            {
+                int index = i;
+                GameObject itemGO = Instantiate(shopItem, shopScroll.content);
+                BuildableItemSO item = manager.LevelData.AvailableItems[index];
+                itemGO.GetComponent<Button>().onClick.AddListener(() => manager.Build.SelectItem(item));
+                itemGO.transform.Find("Icon").GetComponent<Image>().sprite = item.Icon;
+            }
 
+            manager.Build.SelectItem(manager.LevelData.AvailableItems[0]);
         }
     }
 }

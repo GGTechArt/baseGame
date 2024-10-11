@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8fc279ff1a8df459407268c8affff9, type: 3}
   m_Name: Level 1 Data
   m_EditorClassIdentifier: 
-  _sceneName: Level 1
+  _sceneName: test
   _waves: {fileID: 11400000, guid: 40dd8e2a2e7e4a74d95e440bfae328a6, type: 2}
+  _starsValues: 030000000500000008000000
   _availableItems:
   - {fileID: 11400000, guid: 7b618413e30bf4a40a7ca59bae274983, type: 2}
-  - {fileID: 11400000, guid: 9d319e242d1afa64d9ecfa72d86f6b0c, type: 2}

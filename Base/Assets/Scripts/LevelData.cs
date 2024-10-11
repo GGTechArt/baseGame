@@ -1,16 +1,28 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class LevelData : MonoBehaviour
+[Serializable]
+public class LevelData
 {
-    [SerializeField] int sceneID;
-    [SerializeField] int currentScore;
-    [SerializeField] bool isCompleted;
+    [SerializeField] string _levelID;
+    [SerializeField] int _currentScore;
+    [SerializeField] bool _isCompleted = false;
 
-    public int SceneID { get => sceneID; set => sceneID = value; }
-    public int CurrentScore { get => currentScore; set => currentScore = value; }
-    public bool IsCompleted { get => isCompleted; set => isCompleted = value; }
+    public LevelData(string levelID, bool isCompleted)
+    {
+        _levelID = levelID;
+        _isCompleted = isCompleted;
+        _currentScore = 0;
+    }
+
+    public string LevelID { get => _levelID; set => _levelID = value; }
+    public int CurrentScore { get => _currentScore; set => _currentScore = value; }
+    public bool IsCompleted { get => _isCompleted; set => _isCompleted = value; }
+
+    public void CompleteLevel(int score)
+    {
+        _isCompleted = true;
+        _currentScore = score;
+    }
+
 }
