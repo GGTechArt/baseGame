@@ -7,6 +7,7 @@ public class BasicTurret : TurretBehaviorBase
 {
     [SerializeField] Transform target;
     [SerializeField] public float rotationSpeed;
+    [SerializeField] Transform rotationPart;
 
     public override void Update()
     {
@@ -14,8 +15,10 @@ public class BasicTurret : TurretBehaviorBase
 
         if (target != null)
         {
-            Vector3 direction = target.position - transform.position;
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.LookRotation(direction), rotationSpeed * Time.deltaTime);
+            Vector3 direction = target.position - rotationPart.position;
+            Quaternion rotation = Quaternion.RotateTowards(rotationPart.rotation, Quaternion.LookRotation(direction), rotationSpeed * Time.deltaTime);
+            rotation.x = 0; rotation.z = 0;
+            rotationPart.rotation = rotation;
         }
     }
 
@@ -25,26 +28,36 @@ public class BasicTurret : TurretBehaviorBase
 
         float shortestDistance = Mathf.Infinity;
 
-        foreach (var item in targets)
+        if (targets.Length > 0)
         {
-            float distance = Vector3.Distance(transform.position, item.transform.position);
-
-            if (distance < shortestDistance)
+            foreach (var item in targets)
             {
-                shortestDistance = distance;
-                target = item.transform;
+                float distance = Vector3.Distance(transform.position, item.transform.position);
+
+                if (distance < shortestDistance)
+                {
+                    shortestDistance = distance;
+                    target = item.transform;
+                }
             }
+        }
+        else
+        {
+            target = null;
         }
     }
 
     public override void Shoot()
     {
-        GameObject bulletGO = Instantiate(bulletPrefab, firePoints[0].position, firePoints[0].rotation);
-        BulletController bullet = bulletGO.GetComponent<BulletController>();
-
-        if (bulletGO != null)
+        for (int i = 0; i < firePoints.Count; i++)
         {
-            bullet.Seek(target);
+            GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);
+            BulletController bullet = bulletGO.GetComponent<BulletController>();
+
+            if (bulletGO != null)
+            {
+                bullet.Seek(target);
+            }
         }
     }
 

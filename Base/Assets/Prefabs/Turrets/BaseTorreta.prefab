@@ -55,6 +55,7 @@ MonoBehaviour:
   range: 6
   target: {fileID: 0}
   rotationSpeed: 200
+  rotationPart: {fileID: 3871101584333292938}
 --- !u!1 &4343700842444872613
 GameObject:
   m_ObjectHideFlags: 0
