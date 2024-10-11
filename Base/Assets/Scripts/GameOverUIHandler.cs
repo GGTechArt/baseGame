@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverUIHandler : MonoBehaviour
 {
     GameManager manager;
+    ScenesManager scenes;
     CanvasGroup group;
 
     [SerializeField] List<GameObject> starsGO;
+    [SerializeField] Button retryButton;
 
     private void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
+        scenes = ServiceLocator.GetService<ScenesManager>();
+
         group = GetComponent<CanvasGroup>();
+
+        retryButton.onClick.AddListener(() => scenes.ReloadScene());
 
         manager.GameStateChanged += GameStateChanged;
     }

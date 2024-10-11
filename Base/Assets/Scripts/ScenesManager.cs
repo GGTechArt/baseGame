@@ -10,6 +10,11 @@ public class ScenesManager : ServiceInstallerBase<ScenesManager>
         SceneManager.LoadScene(sceneName);
     }
 
+    public void ReloadScene()
+    {
+        ChangeScene(SceneManager.GetActiveScene().name);
+    }
+
     protected override ScenesManager CreateService()
     {
         ServiceLocator.RegisterService(this);

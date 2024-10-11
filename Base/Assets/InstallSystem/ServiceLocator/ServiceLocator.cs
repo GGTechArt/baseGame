@@ -10,6 +10,10 @@ public static class ServiceLocator
         var type = typeof(T);
         if (!_services.ContainsKey(type))
         {
+            _services.Add(type, service);
+        }
+        else
+        {
             _services[type] = service;
         }
     }

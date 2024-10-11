@@ -16,5 +16,5 @@ MonoBehaviour:
   _cost: 151
   _itemName: 
   _prefab: {fileID: 4141262215499945110, guid: 21428e7e249a3954c8220d348b52596c, type: 3}
-  _updates: {fileID: 11400000, guid: cc0c79c82afe3a54f8170126893ec0bd, type: 2}
+  _updates: {fileID: 11400000, guid: b96abdca32face945a9445fa72fe7ae6, type: 2}
   _allies: []

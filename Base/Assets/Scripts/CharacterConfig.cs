@@ -7,8 +7,8 @@ public class CharacterConfig : MonoBehaviour
     public static CharacterDestroyedHandler OnCharacterDestroyed;
 
     [SerializeField] EnemyMovement movement;
-    [SerializeField] HealthComponent health;
-    [SerializeField] BaseDamageable _damageable;
+    HealthComponent health;
+    BaseDamageable _damageable;
     BaseCurable _curable;
 
     public BaseDamageable Damageable { get => _damageable; set => _damageable = value; }

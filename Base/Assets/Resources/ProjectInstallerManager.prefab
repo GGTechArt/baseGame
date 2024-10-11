@@ -44,5 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e49020b75b84404591fe8fb5e9467a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  installers:
+  installersToInstantiate:
   - {fileID: 6727565905128564090, guid: 1e4f86c7534b0dc40843ecc69730d687, type: 3}
+  - {fileID: 4982827066405348994, guid: f2dcd628dc3bc304bad8342602b5f2bb, type: 3}
+  - {fileID: 7478647298291851981, guid: dc14474897eeb2044b535b0c735db865, type: 3}
+  installers: []
