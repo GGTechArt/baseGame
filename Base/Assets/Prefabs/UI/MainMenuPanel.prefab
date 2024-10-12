@@ -288,11 +288,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6eddc4ca8aded428e22c31f5a2e695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameSceneStart: 
+  nameSceneStart: LevelSelectorScene
   timeTransition: 0
   optionsMenuPanel: {fileID: 0}
-  startButton: {fileID: 0}
-  optionsButton: {fileID: 0}
+  startButton: {fileID: 474413462696415768}
+  optionsButton: {fileID: 5928431260518342615}
   exitButton: {fileID: 4572951905315585636}
 --- !u!1 &4938830746698004838
 GameObject:

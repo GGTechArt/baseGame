@@ -420,7 +420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574094986}
-  - component: {fileID: 1574094985}
+  - component: {fileID: 1574094987}
   m_Layer: 0
   m_Name: SceneContextInstaller
   m_TagString: Untagged
@@ -428,21 +428,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1574094985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574094984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e49020b75b84404591fe8fb5e9467a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  installersToInstantiate:
-  - {fileID: 4982827066405348994, guid: f2dcd628dc3bc304bad8342602b5f2bb, type: 3}
-  - {fileID: 6727565905128564090, guid: 1e4f86c7534b0dc40843ecc69730d687, type: 3}
 --- !u!4 &1574094986
 Transform:
   m_ObjectHideFlags: 0
@@ -458,6 +443,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574094987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574094984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8d11feabd717f40813178ff988f2ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  installersToInstantiate: []
+  installers: []
 --- !u!224 &1626130652 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4218973567910861878, guid: aae48660909384670a3b3e6af9e9433a, type: 3}
@@ -1340,10 +1339,6 @@ PrefabInstance:
     - target: {fileID: 3144400575440193806, guid: 10f9b3f6152534139ab3ae757cd78339, type: 3}
       propertyPath: m_Name
       value: MainMenuPanel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3144400575440193806, guid: 10f9b3f6152534139ab3ae757cd78339, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6463102056898924575, guid: 10f9b3f6152534139ab3ae757cd78339, type: 3}
       propertyPath: m_Pivot.x
