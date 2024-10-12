@@ -47,9 +47,4 @@ public class HudUIController : MonoBehaviour
             gameOver.Show();
         }
     }
-
-    private void OnDisable()
-    {
-        manager.GameStateChanged -= GameStateChanged;
-    }
 }
