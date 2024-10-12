@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tallos
+  m_Name: TallosLvlDos
   m_Shader: {fileID: -6465566751694194690, guid: 21359e1e7ea5ad942a93a91234d29220, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
