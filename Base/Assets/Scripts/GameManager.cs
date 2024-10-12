@@ -40,7 +40,7 @@ public class GameManager : ServiceInstallerBase<GameManager>
     }
     public void PrepareGame()
     {
-        ChangeStateGame(GameState.PREPARE);
+        ChangeStateGame(GameState.PREPARE, 1);
 
         _timer.OnTimeFinished += StartGame;
         _waves.WavesFinished += FinishGame;
@@ -57,26 +57,24 @@ public class GameManager : ServiceInstallerBase<GameManager>
 
     public void StartGame()
     {
-        ChangeStateGame(GameState.PLAYING);
-
+        ChangeStateGame(GameState.PLAYING, 1);
         _timer.OnTimeFinished -= StartGame;
-
         _waves.SpawnWave();
     }
 
     public void PauseGame()
     {
-        ChangeStateGame(GameState.PAUSED);
+        ChangeStateGame(GameState.PAUSED, 0);
     }
     public void ResumeGame()
     {
-        ChangeStateGame(GameState.PLAYING);
+        ChangeStateGame(GameState.PLAYING, 1);
     }
 
     public void FinishGame()
     {
         _evaluator.Evaluate();
-        ChangeStateGame(GameState.FINISHED);
+        ChangeStateGame(GameState.FINISHED, 1);
     }
 
     protected override GameManager CreateService()
@@ -85,9 +83,10 @@ public class GameManager : ServiceInstallerBase<GameManager>
         return this;
     }
 
-    public void ChangeStateGame(GameState newState)
+    public void ChangeStateGame(GameState newState, float timeScale)
     {
         currentState = newState;
         GameStateChanged?.Invoke(currentState);
+        Time.timeScale = timeScale;
     }
 }
