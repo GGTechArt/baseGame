@@ -1,18 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LevelSelectorUIHandler : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] string nameSceneReturn;
+    [SerializeField] Button returnButton;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        returnButton.onClick.AddListener(() => ServiceLocator.GetService<ScenesManager>().ChangeScene(nameSceneReturn));
     }
 }
