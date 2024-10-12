@@ -232,6 +232,14 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f92ab9dd2831b44448517cd060af16e7, type: 2}
+    - target: {fileID: -8391222552659086748, guid: a2572bf78c82ab443867f589f1299904, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7146521406498821007, guid: a2572bf78c82ab443867f589f1299904, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4683669308469848369, guid: a2572bf78c82ab443867f589f1299904, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -251,6 +259,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a2572bf78c82ab443867f589f1299904, type: 3}
       propertyPath: m_Name
       value: turretOne
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416272007918961125, guid: a2572bf78c82ab443867f589f1299904, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
