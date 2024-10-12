@@ -10,6 +10,8 @@ public class LevelSelector : MonoBehaviour
     [SerializeField] LevelDataSO levelData;
 
     [SerializeField] GameObject blockedGO, unlockedGO;
+    [SerializeField] Image point;
+    [SerializeField] Sprite available, notAvailable;
     [SerializeField] Button button;
 
     [SerializeField] List<GameObject> starsGO;
@@ -34,22 +36,21 @@ public class LevelSelector : MonoBehaviour
     {
         bool completed = dataManager.Data.GetLevelDataByID(levelData.LevelID).IsCompleted;
 
+        blockedGO.SetActive(completed ? false : true);
+        unlockedGO.SetActive(completed ? true : false);
+
         if (previousLevelData == null)
         {
-            blockedGO.SetActive(completed ? false : true);
-            unlockedGO.SetActive(completed ? true : false);
             button.interactable = true;
         }
 
         else
         {
             bool previousCompleted = dataManager.Data.GetLevelDataByID(previousLevelData.LevelID).IsCompleted;
-
-            blockedGO.SetActive(completed ? false : true);
-            unlockedGO.SetActive(completed ? true : false);
-
             button.interactable = previousCompleted ? true : false;
         }
+
+        point.sprite = button.interactable ? available : notAvailable;
 
         SetStars();
     }
