@@ -25,6 +25,10 @@ public class WavesController : MonoBehaviour
     List<CharacterConfig> enemies = new List<CharacterConfig>();
     [SerializeField] int enemiesKilled = 0;
 
+    private void OnDestroy() {
+        StopCoroutine(SpawnWaveCoroutine());
+    }
+
     public void InitializeComponent()
     {
         levelData = ServiceLocator.GetService<GameManager>().LevelData;

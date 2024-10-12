@@ -60,7 +60,7 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
         ChangeMusicVolume(GetMusicVolume());
         ChangeSfxVolume(GetSfxVolume());
 
-        PlayMainMusic("Musica 1");
+        //PlayMainMusic("Musica 1");
     }
     private void Update()
     {

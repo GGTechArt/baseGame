@@ -13,12 +13,16 @@ public class HudUIHandler : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI waveCounterText;
     [SerializeField] TextMeshProUGUI scoreCounterText;
+    [SerializeField] Button pauseButton;
+
     void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
 
         manager.Waves.WavesStarted += UpdateWaveCounter;
         manager.Score.ScoreChangedStarted += UpdateScoreCounter;
+
+        pauseButton.onClick.AddListener(() => manager.PauseGame());
 
         InstantiateItems();
     }
