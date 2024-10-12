@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,9 +11,15 @@ public class HudUIHandler : MonoBehaviour
     [SerializeField] ScrollRect shopScroll;
     [SerializeField] GameObject shopItem;
 
+    [SerializeField] TextMeshProUGUI waveCounterText;
+    [SerializeField] TextMeshProUGUI scoreCounterText;
+
     void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
+
+        manager.Waves.WavesStarted += UpdateWaveCounter;
+        manager.Score.ScoreChangedStarted += UpdateScoreCounter;
 
         InstantiateItems();
     }
@@ -32,5 +39,15 @@ public class HudUIHandler : MonoBehaviour
 
             manager.Build.SelectItem(manager.LevelData.AvailableItems[0]);
         }
+    }
+
+    public void UpdateWaveCounter(int wave)
+    {
+        waveCounterText.text = wave.ToString() + "/" + manager.LevelData.Waves.WaveDataList.Count;
+    }
+
+    public void UpdateScoreCounter(int score)
+    {
+        scoreCounterText.text = score.ToString();
     }
 }

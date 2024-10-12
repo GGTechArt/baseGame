@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class WavesController : MonoBehaviour
 {
+    public delegate void WaveStartedHandler(int wave);
+    public WaveStartedHandler WavesStarted;
+
     public delegate void WavesFinishedHandler();
     public WavesFinishedHandler WavesFinished;
 
@@ -32,6 +35,7 @@ public class WavesController : MonoBehaviour
 
     public void SpawnWave()
     {
+        WavesStarted?.Invoke(waveIndex + 1);
         StartCoroutine(SpawnWaveCoroutine());
     }
 
