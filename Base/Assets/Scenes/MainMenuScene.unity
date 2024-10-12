@@ -675,9 +675,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1181121676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 52.5, y: -16.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 21, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104642477
@@ -3587,7 +3587,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &599479456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3627,6 +3627,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
   blockedGO: {fileID: 753399902}
   button: {fileID: 1169438711}
+  starsGO: []
 --- !u!1 &618470096
 GameObject:
   m_ObjectHideFlags: 0
@@ -3734,9 +3735,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1181121676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 28.5, y: -16.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 21, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646633662
@@ -3833,6 +3834,10 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
   blockedGO: {fileID: 1140325724}
   button: {fileID: 1141991295}
+  starsGO:
+  - {fileID: 646633660}
+  - {fileID: 104642475}
+  - {fileID: 1072272105}
 --- !u!1 &672569534
 GameObject:
   m_ObjectHideFlags: 0
@@ -6206,9 +6211,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1181121676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 76.5, y: -16.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 21, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072272107
@@ -7725,7 +7730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1262869450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7765,6 +7770,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
   blockedGO: {fileID: 976537974}
   button: {fileID: 1011056877}
+  starsGO: []
 --- !u!1 &1270215727
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,7 +8058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1291525885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8092,6 +8098,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
   blockedGO: {fileID: 76274910}
   button: {fileID: 156982069}
+  starsGO: []
 --- !u!1 &1314905338
 GameObject:
   m_ObjectHideFlags: 0
@@ -12201,15 +12208,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807246235}
-  - component: {fileID: 1807246237}
-  - component: {fileID: 1807246236}
   m_Layer: 5
   m_Name: MapGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1807246235
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12232,44 +12237,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1807246236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807246234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70b240369f05f254181202309e43a996, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1807246237
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807246234}
-  m_CullTransparentMesh: 1
 --- !u!1 &1815210261
 GameObject:
   m_ObjectHideFlags: 0
@@ -12351,7 +12318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1831070562
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12391,6 +12358,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
   blockedGO: {fileID: 1721200722}
   button: {fileID: 2058576364}
+  starsGO: []
 --- !u!1 &1904987155
 GameObject:
   m_ObjectHideFlags: 0
