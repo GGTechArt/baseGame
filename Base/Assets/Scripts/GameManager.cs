@@ -52,7 +52,7 @@ public class GameManager : ServiceInstallerBase<GameManager>
         }
 
         _waves.InitializeComponent();
-        _timer.StartTimer(1f);
+        _timer.StartTimer(0.1f);
     }
 
     public void StartGame()

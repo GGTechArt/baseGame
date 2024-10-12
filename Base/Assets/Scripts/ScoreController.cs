@@ -12,7 +12,7 @@ public class ScoreController : MonoBehaviour
 
     private void Start()
     {
-        ScoreChangedStarted?.Invoke(currentScore);
+        StartCoroutine(InitializeComponents());
     }
 
     public void AddScore(int score)
@@ -38,5 +38,11 @@ public class ScoreController : MonoBehaviour
         {
             return false;
         }
+    }
+
+    IEnumerator InitializeComponents()
+    {
+        yield return null;
+        ScoreChangedStarted?.Invoke(currentScore);
     }
 }

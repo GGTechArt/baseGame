@@ -18,4 +18,4 @@ MonoBehaviour:
     _prefab: {fileID: 1722141785930365346, guid: 28f008b08e51bac43b235f6966b3cb82, type: 3}
   - _fireRate: 1
     _speed: 0
-    _prefab: {fileID: 4945678484385422463, guid: f51ce9f40f69ef942b5c726171ffcde4, type: 3}
+    _prefab: {fileID: 0}

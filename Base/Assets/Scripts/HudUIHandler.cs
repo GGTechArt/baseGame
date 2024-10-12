@@ -13,7 +13,6 @@ public class HudUIHandler : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI waveCounterText;
     [SerializeField] TextMeshProUGUI scoreCounterText;
-
     void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
