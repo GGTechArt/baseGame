@@ -15,7 +15,7 @@ public class DataManager : ServiceInstallerBase<DataManager>
 
     void Start()
     {
-        InitializeComponent();
+        //InitializeComponent();
     }
 
     public void InitializeComponent()
@@ -83,6 +83,7 @@ public class DataManager : ServiceInstallerBase<DataManager>
     protected override DataManager CreateService()
     {
         ServiceLocator.RegisterService(this);
+        InitializeComponent();
         return this;
     }
 

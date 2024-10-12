@@ -24,7 +24,7 @@ public class LevelSelector : MonoBehaviour
 
         button.onClick.AddListener(delegate
         {
-            ServiceLocator.GetService<DataManager>().SetLevel(levelData);
+            dataManager.SetLevel(levelData);
             sceneManager.ChangeScene(levelData.SceneName);
         });
 
@@ -32,33 +32,30 @@ public class LevelSelector : MonoBehaviour
     }
     public void LoadLevelSelector()
     {
-        SetStars();
+        bool completed = dataManager.Data.GetLevelDataByID(levelData.LevelID).IsCompleted;
 
         if (previousLevelData == null)
         {
-            blockedGO.SetActive(false);
+            blockedGO.SetActive(completed ? false : true);
+            unlockedGO.SetActive(completed ? true : false);
             button.interactable = true;
         }
 
         else
         {
-            if (dataManager.Data.GetLevelDataByID(previousLevelData.LevelID).IsCompleted)
-            {
-                blockedGO.SetActive(false);
-                button.interactable = true;
-            }
+            bool previousCompleted = dataManager.Data.GetLevelDataByID(previousLevelData.LevelID).IsCompleted;
 
-            else
-            {
-                blockedGO.SetActive(true);
-                button.interactable = false;
-            }
+            blockedGO.SetActive(completed ? false : true);
+            unlockedGO.SetActive(completed ? true : false);
+
+            button.interactable = previousCompleted ? true : false;
         }
+
+        SetStars();
     }
     public void SetStars()
     {
         LevelData data = dataManager.Data.GetLevelDataByID(levelData.LevelID);
-
         int stars = data.CurrentScore;
 
         for (int i = 0; i < starsGO.Count; i++)
@@ -67,7 +64,6 @@ public class LevelSelector : MonoBehaviour
             {
                 starsGO[i].SetActive(true);
             }
-
             else
             {
                 starsGO[i].SetActive(false);

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c8fc279ff1a8df459407268c8affff9, type: 3}
+  m_Name: Level 1 Data
+  m_EditorClassIdentifier: 
+  _levelID: Level 1
+  _sceneName: test
+  _waves: {fileID: 11400000, guid: 40dd8e2a2e7e4a74d95e440bfae328a6, type: 2}
+  _starsValues: 030000000500000008000000
+  _availableItems:
+  - {fileID: 11400000, guid: 9dd32fc0007f3d648bfb2347411904a1, type: 2}
+  - {fileID: 11400000, guid: 2f95045dfca4bd74096916c5c23062a3, type: 2}

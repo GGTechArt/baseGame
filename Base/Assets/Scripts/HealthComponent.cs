@@ -4,20 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class HealthComponent
+public class HealthComponent : MonoBehaviour
 {
+    public delegate void HealthChangedDelegate(float currentHealth);
+    public HealthChangedDelegate HealthChanged;
+
     [SerializeField] private float _maxHealth;
     [SerializeField] private float _health;
 
-    public HealthComponent(float health)
+
+    public void Configure(float health)
     {
         _health = health;
+        _maxHealth = health;
     }
 
-    private void Start()
-    {
-        _maxHealth = _health;
-    }
     public float GetHealth()
     {
         return _health;
@@ -31,5 +32,6 @@ public class HealthComponent
     public void SetHealth(float newHealth)
     {
         _health = newHealth;
+        HealthChanged?.Invoke(_health);
     }
 }

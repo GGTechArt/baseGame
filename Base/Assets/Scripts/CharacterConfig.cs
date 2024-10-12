@@ -7,7 +7,7 @@ public class CharacterConfig : MonoBehaviour
     public static CharacterDestroyedHandler OnCharacterDestroyed;
 
     [SerializeField] EnemyMovement movement;
-    HealthComponent health;
+    [SerializeField] HealthComponent health;
     BaseDamageable _damageable;
     BaseCurable _curable;
 
@@ -20,7 +20,7 @@ public class CharacterConfig : MonoBehaviour
 
     public void ConfigureCharacter(CharacterSO data)
     {
-        health = new HealthComponent(data.Health);
+        health.Configure(data.Health);
         _damageable = new BaseDamageable(health);
         _curable = new BaseCurable(health);
 
