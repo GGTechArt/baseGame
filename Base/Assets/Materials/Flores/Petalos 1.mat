@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TallosLvlDos
+  m_Name: Petalos 1
   m_Shader: {fileID: -6465566751694194690, guid: 21359e1e7ea5ad942a93a91234d29220, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -56,7 +56,7 @@ Material:
     - _QueueOffset: 0
     - _Viento: 0.05
     m_Colors:
-    - _Color: {r: 1, g: 0.11635202, b: 0.54304975, a: 0}
-    - _Color_1: {r: 1, g: 0.3641176, b: 0.33647794, a: 0}
+    - _Color: {r: 0.035294116, g: 0.6006345, b: 1, a: 0}
+    - _Color_1: {r: 0.033843096, g: 0, b: 0.6675393, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
