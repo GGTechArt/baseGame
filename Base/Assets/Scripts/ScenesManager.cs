@@ -7,7 +7,15 @@ public class ScenesManager : ServiceInstallerBase<ScenesManager>
 {
     public void ChangeScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        if (sceneName == null)
+        {
+            ReloadScene();
+        }
+        else
+        {
+
+            SceneManager.LoadScene(sceneName);
+        }
     }
 
     public void ReloadScene()

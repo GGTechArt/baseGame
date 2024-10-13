@@ -8,7 +8,7 @@ public class WinUIHandler : MonoBehaviour
     GameManager manager;
     ScenesManager scenes;
     CanvasGroup group;
-
+    [SerializeField] string nextScene;
     [SerializeField] List<GameObject> starsGO;
     [SerializeField] Button retryButton;
 
@@ -19,7 +19,7 @@ public class WinUIHandler : MonoBehaviour
 
         group = GetComponent<CanvasGroup>();
 
-        retryButton.onClick.AddListener(() => scenes.ReloadScene());
+        retryButton.onClick.AddListener(() => scenes.ChangeScene(nextScene));
     }
 
     public void Show()

@@ -15,6 +15,7 @@ MonoBehaviour:
   _levelID: Level 3
   _sceneName: Lvl_Three_Scene
   _waves: {fileID: 11400000, guid: 09a189a45f5e3ae45b42fdce14ef0fa2, type: 2}
-  _starsValues: 010000000200000003000000
+  _starsValues: 0f0000001400000023000000
   _availableItems:
-  - {fileID: 11400000, guid: 7b618413e30bf4a40a7ca59bae274983, type: 2}
+  - {fileID: 11400000, guid: 9dd32fc0007f3d648bfb2347411904a1, type: 2}
+  - {fileID: 11400000, guid: 2f95045dfca4bd74096916c5c23062a3, type: 2}

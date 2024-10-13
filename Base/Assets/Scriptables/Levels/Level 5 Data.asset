@@ -17,4 +17,5 @@ MonoBehaviour:
   _waves: {fileID: 11400000, guid: f432ad393d2d9a746add1a69581c8d48, type: 2}
   _starsValues: 010000000200000003000000
   _availableItems:
-  - {fileID: 11400000, guid: 7b618413e30bf4a40a7ca59bae274983, type: 2}
+  - {fileID: 11400000, guid: 9dd32fc0007f3d648bfb2347411904a1, type: 2}
+  - {fileID: 11400000, guid: 2f95045dfca4bd74096916c5c23062a3, type: 2}

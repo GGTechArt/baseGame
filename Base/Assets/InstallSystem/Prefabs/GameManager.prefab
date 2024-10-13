@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a7a323b7eb70f8438ce093bd373bb5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levelData: {fileID: 11400000, guid: d3e8a292581a11d44bb49b0c8b908366, type: 2}
+  _levelData: {fileID: 0}
   _timer: {fileID: 5071945786201248604}
   _waves: {fileID: 5015959109574267096}
   _build: {fileID: 3912601950070213223}
@@ -278,3 +278,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawPoint: {fileID: 0}
+  enemies: []
+  enemiesKilled: 0
