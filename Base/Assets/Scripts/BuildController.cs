@@ -27,37 +27,42 @@ public class BuildController : MonoBehaviour
         return itemSelected;
     }
 
-    public void TryBuild(Node node)
+    public bool TryBuild(Node node)
     {
         if (manager.Score.ValidateScore(itemSelected.Cost))
         {
             Build(node);
+            return true;
         }
 
         else
         {
             Debug.Log("No hay suficiente dinero para construir.");
+            return false;
         }
     }
 
-    public void TryUpdate(IBuildable buildable)
+    public bool TryUpdate(IBuildable buildable)
     {
         if (manager.Score.ValidateScore(buildable.data.Cost))
         {
             if (buildable.TryUpdate())
             {
                 UpdateBuild(buildable);
+                return true;
             }
 
             else
             {
                 Debug.Log("No hay mas actualizaciones disponibles.");
+                return false;
             }
         }
 
         else
         {
             Debug.Log("No hay suficiente dinero para construir.");
+            return false;
         }
     }
 

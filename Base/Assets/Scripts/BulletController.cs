@@ -30,7 +30,7 @@ public class BulletController : MonoBehaviour
         Vector3 startPosition = transform.position;
 
         float tiempo = 0.0f;
-        float duracion = 1.0f; // Tiempo total para alcanzar el objetivo (ajústalo según tu necesidad)
+        float duracion = 0.5f; // Tiempo total para alcanzar el objetivo (ajústalo según tu necesidad)
 
         float rangoImpacto = 0.5f; // Tolerancia para el impacto
 
@@ -44,7 +44,6 @@ public class BulletController : MonoBehaviour
             Vector3 endPosition = target.position;
 
             // Definir un punto de control a un lado (en el eje X o Z para curvatura lateral)
-            //Vector3 direccionLateral = Vector3.right; // Puedes usar Vector3.left para la otra dirección
             Vector3 puntoControl = (startPosition + endPosition) / 2 + direccionLateral * 4; // Ajusta la magnitud de la curva
 
             // Interpolamos primero entre el punto A (inicio) y el punto de control
@@ -65,6 +64,13 @@ public class BulletController : MonoBehaviour
                 yield break; // Detenemos la coroutina
             }
 
+            // Calcular la dirección hacia el objetivo actual
+            Vector3 direccionHaciaTarget = endPosition - transform.position;
+
+            // Rotar hacia la dirección del objetivo en el eje Z (ignorar otros ejes)
+            float anguloZ = Mathf.Atan2(direccionHaciaTarget.y, direccionHaciaTarget.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, anguloZ);  // Solo rotar en Z
+
             // Espera hasta el siguiente frame
             yield return null;
         }
@@ -72,6 +78,7 @@ public class BulletController : MonoBehaviour
         // Si el target desaparece durante la ejecución
         Destroy(gameObject);
     }
+
 
 
 

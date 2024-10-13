@@ -12,6 +12,8 @@ public class Node : MonoBehaviour
 
     public Transform buildPosition;
     private Renderer rend;
+    public ParticleSystem buildParticle;
+    public ParticleSystem demolitionParticle;
 
     void Start()
     {
@@ -32,7 +34,11 @@ public class Node : MonoBehaviour
         {
             if (!manager.Build.GetDemolitionState())
             {
-                manager.Build.TryBuild(this);
+                if (manager.Build.TryBuild(this))
+                {
+                    ServiceLocator.GetService<AudioManager>().PlayMainSfx("Build");
+                    buildParticle.Play();
+                }
             }
             else
             {
@@ -44,13 +50,18 @@ public class Node : MonoBehaviour
         {
             if (manager.Build.GetDemolitionState())
             {
+                demolitionParticle.Play();
                 manager.Build.Demolish(buildable);
                 buildable = null;
             }
 
             else
             {
-                manager.Build.TryUpdate(buildable);
+                if (manager.Build.TryUpdate(buildable))
+                {
+                    ServiceLocator.GetService<AudioManager>().PlayMainSfx("Build");
+                    buildParticle.Play();
+                }
             }
         }
     }

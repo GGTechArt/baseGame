@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2109742252232046173
 RectTransform:
   m_ObjectHideFlags: 0
@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3647059, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.8352942, g: 0.14509805, b: 0.16470589, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3948,6 +3948,10 @@ MonoBehaviour:
   waveCounterText: {fileID: 7380563615723956272}
   scoreCounterText: {fileID: 5673222948691346914}
   pauseButton: {fileID: 8095735420778414573}
+  demolitionButton: {fileID: 6839818446281033033}
+  demolitionState: {fileID: 233476591211101455}
+  demolitionEnableColor: {r: 0.22041759, g: 0.8352941, b: 0.14509803, a: 1}
+  demolitionDisableColor: {r: 0.8352941, g: 0.14509805, b: 0.16470589, a: 1}
 --- !u!1 &6755065359902880373
 GameObject:
   m_ObjectHideFlags: 0
@@ -4254,7 +4258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3647059, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5471,7 +5475,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Build
+  m_text: Sell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a0a771f04192b0744b3eb4fa032a6e17, type: 2}
   m_sharedMaterial: {fileID: -3769184121805179482, guid: a0a771f04192b0744b3eb4fa032a6e17, type: 2}

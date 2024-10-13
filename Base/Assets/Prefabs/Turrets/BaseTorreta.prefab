@@ -53,9 +53,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   range: 6
+  lastTarget: {fileID: 0}
   target: {fileID: 0}
   rotationSpeed: 200
   rotationPart: {fileID: 3871101584333292938}
+  returnCooldown: 3
 --- !u!1 &4343700842444872613
 GameObject:
   m_ObjectHideFlags: 0

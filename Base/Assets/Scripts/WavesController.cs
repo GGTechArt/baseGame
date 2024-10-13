@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class WavesController : MonoBehaviour
 {
@@ -22,12 +23,12 @@ public class WavesController : MonoBehaviour
     public Transform spawPoint;
     private int waveIndex = 0;
 
-    List<CharacterConfig> enemies = new List<CharacterConfig>();
+    [SerializeField] List<CharacterConfig> enemies = new List<CharacterConfig>();
     [SerializeField] int enemiesKilled = 0;
 
-    private void OnDestroy() {
-        StopCoroutine(SpawnWaveCoroutine());
-    }
+    float enemySpawnCooldown;
+    float nextWaveCooldown;
+    float enemiesToInstantiate;
 
     public void InitializeComponent()
     {
@@ -40,45 +41,64 @@ public class WavesController : MonoBehaviour
 
     public void SpawnWave()
     {
+        currentWaveData = wavesData.WaveDataList[waveIndex];
+        enemiesToInstantiate = currentWaveData.EnemiesAmmount;
+        enemies.Clear();
+        enemySpawnCooldown = 0.1f;
         WavesStarted?.Invoke(waveIndex + 1);
-        StartCoroutine(SpawnWaveCoroutine());
     }
 
-    IEnumerator SpawnWaveCoroutine()
+    private void Update()
     {
-        if (waveIndex < wavesData.WaveDataList.Count)
+        if (currentWaveData != null)
         {
-            enemies.Clear();
-            currentWaveData = wavesData.WaveDataList[waveIndex];
-
-            for (int i = 0; i < currentWaveData.EnemiesAmmount; i++)
+            if (nextWaveCooldown > 0)
             {
-                int randomEnemy = Random.Range(0, currentWaveData.Enemies.Count);
-                CharacterSO characterData = currentWaveData.Enemies[randomEnemy];
-                GameObject spawnedEnemy = SpawnEnemy((EnemyDataSO)characterData);
-                if (spawnedEnemy)
+                nextWaveCooldown -= Time.deltaTime;
+                if (nextWaveCooldown <= 0)
                 {
-                    CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
-                    controller.ConfigureCharacter(characterData);
-                    //controller.Damageable.OnDeath += EnemyKilled;
-                    enemies.Add(controller);
+                    SpawnWave();
                 }
+            }
 
-                float enemyDistance = Random.Range(currentWaveData.MinRateTime, currentWaveData.MaxRateTime);
-                yield return new WaitForSeconds(enemyDistance);
+            if (enemySpawnCooldown > 0)
+            {
+                enemySpawnCooldown -= Time.deltaTime;
+                if (enemySpawnCooldown <= 0)
+                {
+                    if (enemiesToInstantiate > 0)
+                    {
+                        SpawnRandomEnemy();
+                        enemiesToInstantiate--;
+                        enemySpawnCooldown = Random.Range(currentWaveData.MinRateTime, currentWaveData.MaxRateTime);
+                    }
+                    else
+                    {
+                        Debug.Log("Wave instanciada con exito");
+                    }
+                }
             }
         }
-
-        else
-        {
-            Debug.Log("Finalizadas Waves");
-        }
     }
 
+    public void SpawnRandomEnemy()
+    {
+        int randomEnemy = Random.Range(0, currentWaveData.Enemies.Count);
+        CharacterSO characterData = currentWaveData.Enemies[randomEnemy];
+        GameObject spawnedEnemy = SpawnEnemy((EnemyDataSO)characterData);
+
+        if (spawnedEnemy)
+        {
+            CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
+            controller.ConfigureCharacter(characterData);
+            enemies.Add(controller);
+        }
+    }
     public void NextWave()
     {
+        enemySpawnCooldown = -1;
+        nextWaveCooldown = currentWaveData.NextWaveTime;
         waveIndex++;
-        SpawnWave();
     }
 
     public void EnemyKilled(CharacterConfig character)
@@ -120,5 +140,11 @@ public class WavesController : MonoBehaviour
     GameObject SpawnEnemy(EnemyDataSO enemyData)
     {
         return Instantiate(enemyData.Prefab, spawPoint.position, spawPoint.rotation);
+    }
+
+    private void OnDisable()
+    {
+        CharacterConfig.OnCharacterDestroyed -= EnemyDestroyed;
+        CharacterConfig.OnCharacterKilled -= EnemyKilled;
     }
 }
