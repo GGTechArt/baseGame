@@ -16,3 +16,4 @@ MonoBehaviour:
   _movementSpeed: 5
   _health: 5
   _type: 0
+  _killedScore: 150
