@@ -13,6 +13,8 @@ public class ScoreController : MonoBehaviour
     private void Start()
     {
         StartCoroutine(InitializeComponents());
+
+        CharacterConfig.OnCharacterDestroyed += AddEnemyScore;
     }
 
     public void AddScore(int score)
@@ -25,6 +27,12 @@ public class ScoreController : MonoBehaviour
     {
         currentScore -= score;
         ScoreChangedStarted?.Invoke(currentScore);
+    }
+
+    public void AddEnemyScore(CharacterConfig config)
+    {
+        EnemyDataSO enemyData = (EnemyDataSO)config.Data;
+        AddScore(enemyData.KilledScore);
     }
 
     public bool ValidateScore(int score)

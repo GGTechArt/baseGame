@@ -20,7 +20,7 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
     float sfxVolume;
 
     bool musicCrossfade = false;
-    float musicCrossfadeTime = 1;
+    float musicCrossfadeTime = .5f;
     float musicTargetVolume = 1;
     int musicSourceIndex = 0;
     int sfxSourceIndex = 0;
@@ -49,7 +49,7 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
 
         mainMusicSource = musicSources[0];
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 2; i++)
         {
             AudioSource sfxSource = gameObject.AddComponent<AudioSource>();
             sfxSource.outputAudioMixerGroup = sfxMixerGroup;
@@ -110,7 +110,10 @@ public class AudioManager : ServiceInstallerBase<AudioManager>
         if (sfxSourceIndex > sfxSources.Count - 1)
             sfxSourceIndex = 0;
 
-        sfxSources[sfxSourceIndex].PlayOneShot(clipsData.GetAudioClipByID(_clipName));
+        if (!sfxSources[sfxSourceIndex].isPlaying)
+        {
+            sfxSources[sfxSourceIndex].PlayOneShot(clipsData.GetAudioClipByID(_clipName));
+        }   
     }
 
     public void MusicCrossfade()

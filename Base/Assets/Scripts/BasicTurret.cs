@@ -49,14 +49,17 @@ public class BasicTurret : TurretBehaviorBase
 
     public override void Shoot()
     {
-        for (int i = 0; i < firePoints.Count; i++)
+        if (target)
         {
-            GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);
-            BulletController bullet = bulletGO.GetComponent<BulletController>();
-
-            if (bulletGO != null)
+            for (int i = 0; i < firePoints.Count; i++)
             {
-                bullet.Seek(target);
+                GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);
+                BulletController bullet = bulletGO.GetComponent<BulletController>();
+
+                if (bulletGO != null)
+                {
+                    bullet.Seek(target);
+                }
             }
         }
     }

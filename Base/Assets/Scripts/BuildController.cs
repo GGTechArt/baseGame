@@ -2,12 +2,19 @@ using UnityEngine;
 
 public class BuildController : MonoBehaviour
 {
+    public delegate void DemolitionStateChangedDelegate(bool activated);
+    public DemolitionStateChangedDelegate DemolitionStateChanged;
+
     [SerializeField] BuildableItemSO itemSelected;
     GameManager manager;
+
+    bool demolitionMode;
 
     private void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
+
+        ChangeDemolitionMode(false);
     }
 
     public void SelectItem(BuildableItemSO newItem)
@@ -68,5 +75,28 @@ public class BuildController : MonoBehaviour
     {
         buildable.Update();
         manager.Score.RemoveScore(buildable.data.Cost);
+    }
+
+    public void Demolish(IBuildable buildable)
+    {
+        if (buildable != null)
+        {
+            int cost = (int)((buildable.GetCurrentUpdate() + 1) * buildable.data.Cost * 0.5f);
+            Debug.Log(cost);
+            manager.Score.AddScore(cost);
+            buildable.Demolished();
+            ChangeDemolitionMode(false);
+        }
+    }
+
+    public void ChangeDemolitionMode(bool activate)
+    {
+        demolitionMode = activate;
+        DemolitionStateChanged?.Invoke(activate);
+    }
+
+    public bool GetDemolitionState()
+    {
+        return demolitionMode;
     }
 }

@@ -38,7 +38,7 @@ public class TurretsController : MonoBehaviour, IBuildable
     {
         if (currentStats.Prefab != null)
         {
-            GameObject newTurret = Instantiate(currentStats.Prefab, transform.position, currentTurret != null ? currentTurret.transform.rotation : Quaternion.identity);
+            GameObject newTurret = Instantiate(currentStats.Prefab, transform.position, currentTurret != null ? currentTurret.transform.rotation : Quaternion.identity, transform);
 
             if (currentTurret)
             {
@@ -48,5 +48,15 @@ public class TurretsController : MonoBehaviour, IBuildable
             currentTurret = newTurret.GetComponent<TurretBehaviorBase>();
             currentTurret.SetStats(currentStats);
         }
+    }
+
+    public int GetCurrentUpdate()
+    {
+        return currentUpdate;
+    }
+
+    public void Demolished()
+    {
+        Destroy(gameObject);
     }
 }

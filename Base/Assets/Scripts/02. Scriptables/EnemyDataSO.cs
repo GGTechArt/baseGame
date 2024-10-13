@@ -12,4 +12,7 @@ public class EnemyDataSO : CharacterSO
 {
     [Header("Enemy Data")]
     [SerializeField] EnemyTypeEnum _type;
+    [SerializeField] int _killedScore;
+
+    public int KilledScore { get => _killedScore; set => _killedScore = value; }
 }

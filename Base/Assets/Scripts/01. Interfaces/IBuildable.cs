@@ -8,4 +8,6 @@ public interface IBuildable
     public void Configure(BuildableItemSO data);
     public bool TryUpdate();
     public void Update();
+    public int GetCurrentUpdate();
+    public void Demolished();
 }

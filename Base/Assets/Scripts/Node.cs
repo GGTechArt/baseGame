@@ -30,12 +30,28 @@ public class Node : MonoBehaviour
     {
         if (buildable == null)
         {
-            manager.Build.TryBuild(this);
+            if (!manager.Build.GetDemolitionState())
+            {
+                manager.Build.TryBuild(this);
+            }
+            else
+            {
+                manager.Build.ChangeDemolitionMode(false);
+            }
         }
 
         else
         {
-            manager.Build.TryUpdate(buildable);
+            if (manager.Build.GetDemolitionState())
+            {
+                manager.Build.Demolish(buildable);
+                buildable = null;
+            }
+
+            else
+            {
+                manager.Build.TryUpdate(buildable);
+            }
         }
     }
 

@@ -11,7 +11,10 @@ public class CharacterConfig : MonoBehaviour
     BaseDamageable _damageable;
     BaseCurable _curable;
 
+    CharacterSO _data;
+
     public BaseDamageable Damageable { get => _damageable; set => _damageable = value; }
+    public CharacterSO Data { get => _data; set => _data = value; }
 
     private void Awake()
     {
@@ -20,7 +23,8 @@ public class CharacterConfig : MonoBehaviour
 
     public void ConfigureCharacter(CharacterSO data)
     {
-        health.Configure(data.Health);
+        Data = data;
+        health.Configure(Data.Health);
         _damageable = new BaseDamageable(health);
         _curable = new BaseCurable(health);
 

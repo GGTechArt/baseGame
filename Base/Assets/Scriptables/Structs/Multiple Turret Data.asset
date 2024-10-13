@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Multiple Turret Data
   m_EditorClassIdentifier: 
   _icon: {fileID: 21300000, guid: 2b69ce68ee6a26c4c8dd04b68f2891ea, type: 3}
-  _cost: 151
+  _cost: 100
   _itemName: 
   _prefab: {fileID: 4141262215499945110, guid: 21428e7e249a3954c8220d348b52596c, type: 3}
   _updates: {fileID: 11400000, guid: cd5e97414bb177444b69b47a9eea56ba, type: 2}
