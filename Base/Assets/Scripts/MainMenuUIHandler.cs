@@ -23,6 +23,7 @@ public class MainMenuUIHandler : MonoBehaviour
 
     void Start()
     {
+        ServiceLocator.GetService<AudioManager>().PlayMainMusic("Musica 1");
         startButton.onClick.AddListener(() => ServiceLocator.GetService<ScenesManager>().ChangeScene(nameSceneStart));
         optionsButton.onClick.AddListener(() => ChangePanel(optionsMenuPanel));
         exitButton.onClick.AddListener(() => Application.Quit());

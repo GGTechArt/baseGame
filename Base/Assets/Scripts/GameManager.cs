@@ -40,6 +40,7 @@ public class GameManager : ServiceInstallerBase<GameManager>
     }
     public void PrepareGame()
     {
+        ServiceLocator.GetService<AudioManager>().PlayMainMusic("Musica 2");
         ChangeStateGame(GameState.PREPARE, 1);
 
         _timer.OnTimeFinished += StartGame;
