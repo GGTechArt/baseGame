@@ -12,7 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelectorScene.unity
     guid: 2c6c250637e024e31a14d3cc9d9a6d16
   - enabled: 1
-    path: Assets/Scenes/test.unity
+    path: Assets/Scenes/Lvl_One_Scene.unity
     guid: dc01c4c3e59c2684db68274bea06814d
+  - enabled: 1
+    path: Assets/Scenes/Lvl_Two_Scene.unity
+    guid: 54f911b9bf84b1e42a0a62294729a584
+  - enabled: 1
+    path: Assets/Scenes/Lvl_Three_Scene.unity
+    guid: e2a9e970317bb034693f311206849c5d
+  - enabled: 1
+    path: Assets/Scenes/Lvl_Four_Scene.unity
+    guid: 0573abb6c374d3045b3b10fdf6850114
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

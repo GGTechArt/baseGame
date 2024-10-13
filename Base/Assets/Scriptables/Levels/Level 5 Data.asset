@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level 5 Data
   m_EditorClassIdentifier: 
   _levelID: Level 5
-  _sceneName: Level 5
+  _sceneName: Lvl_Five_Scene
   _waves: {fileID: 11400000, guid: f432ad393d2d9a746add1a69581c8d48, type: 2}
-  _starsValues: 
+  _starsValues: 010000000200000003000000
   _availableItems:
   - {fileID: 11400000, guid: 7b618413e30bf4a40a7ca59bae274983, type: 2}
