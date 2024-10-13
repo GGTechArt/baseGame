@@ -8,6 +8,13 @@ public class BasicTurret : TurretBehaviorBase
     [SerializeField] Transform target;
     [SerializeField] public float rotationSpeed;
     [SerializeField] Transform rotationPart;
+    AudioManager audioManager;
+
+    public override void Start()
+    {
+        base.Start();
+        audioManager = ServiceLocator.GetService<AudioManager>();
+    }
 
     public override void Update()
     {
@@ -51,6 +58,8 @@ public class BasicTurret : TurretBehaviorBase
     {
         if (target)
         {
+            audioManager.PlayMainSfx("Missile Shoot");
+
             for (int i = 0; i < firePoints.Count; i++)
             {
                 GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);

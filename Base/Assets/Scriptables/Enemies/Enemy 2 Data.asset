@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf036ec35a6269d40af198131dbb7b4b, type: 3}
-  m_Name: Goblin Enemy Data
+  m_Name: Enemy 2 Data
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 6173002619460378277, guid: 312f36cfe191b044ca9f581c5d3dcff5, type: 3}
+  _prefab: {fileID: 7940044981028778875, guid: a97d36c077342cd4cbf380387a124458, type: 3}
   _movementSpeed: 5
   _health: 5
   _type: 0

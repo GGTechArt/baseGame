@@ -14,7 +14,7 @@ public class ScoreController : MonoBehaviour
     {
         StartCoroutine(InitializeComponents());
 
-        CharacterConfig.OnCharacterDestroyed += AddEnemyScore;
+        CharacterConfig.OnCharacterKilled += AddEnemyScore;
     }
 
     public void AddScore(int score)

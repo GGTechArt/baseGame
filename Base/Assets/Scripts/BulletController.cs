@@ -16,7 +16,7 @@ public class BulletController : MonoBehaviour
 
     void HitTarget()
     {
-        ServiceLocator.GetService<AudioManager>().PlayMainSfx("Laser Impact");
+        //ServiceLocator.GetService<AudioManager>().PlayMainSfx("Laser Impact");
         damager.SetDamage(target.GetComponent<CharacterConfig>().Damageable);
         Destroy(gameObject);
     }

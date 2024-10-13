@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _clips:
   - _id: Musica 1
-    _clip: {fileID: 8300000, guid: c8d751f6e695e674ab3440f62c2db36f, type: 3}
+    _clip: {fileID: 8300000, guid: 55d277abc2239e147b7cc5fe3b0d0527, type: 3}
   - _id: Musica 2
-    _clip: {fileID: 8300000, guid: 61acdf3c6e8d2d244a09713e6c5387ff, type: 3}
+    _clip: {fileID: 8300000, guid: 45379d73906dc6c49b8b25350d147336, type: 3}
   - _id: Button Hover
     _clip: {fileID: 8300000, guid: 8a31a336e02004ca6ab43ec01cf47a2f, type: 3}
+  - _id: Laser Impact
+    _clip: {fileID: 8300000, guid: 27f283d9910ee4b4a875b269e2bf6a21, type: 3}
+  - _id: Missile Shoot
+    _clip: {fileID: 8300000, guid: a8764f23852c61a4ebc236058eed10c6, type: 3}

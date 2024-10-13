@@ -35,6 +35,7 @@ public class WavesController : MonoBehaviour
         wavesData = levelData.Waves;
 
         CharacterConfig.OnCharacterDestroyed += EnemyDestroyed;
+        CharacterConfig.OnCharacterKilled += EnemyKilled;
     }
 
     public void SpawnWave()
@@ -59,7 +60,7 @@ public class WavesController : MonoBehaviour
                 {
                     CharacterConfig controller = spawnedEnemy.GetComponent<CharacterConfig>();
                     controller.ConfigureCharacter(characterData);
-                    controller.Damageable.OnDeath += EnemyKilled;
+                    //controller.Damageable.OnDeath += EnemyKilled;
                     enemies.Add(controller);
                 }
 
@@ -80,7 +81,7 @@ public class WavesController : MonoBehaviour
         SpawnWave();
     }
 
-    public void EnemyKilled()
+    public void EnemyKilled(CharacterConfig character)
     {
         enemiesKilled++;
 
@@ -94,7 +95,6 @@ public class WavesController : MonoBehaviour
     {
         if (enemies.Contains(character))
         {
-            character.Damageable.OnDeath -= EnemyKilled;
             enemies.Remove(character);
 
             if (enemies.Count <= 0)

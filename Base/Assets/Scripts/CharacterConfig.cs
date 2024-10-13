@@ -5,6 +5,7 @@ public class CharacterConfig : MonoBehaviour
 {
     public delegate void CharacterDestroyedHandler(CharacterConfig character);
     public static CharacterDestroyedHandler OnCharacterDestroyed;
+    public static CharacterDestroyedHandler OnCharacterKilled;
 
     [SerializeField] EnemyMovement movement;
     [SerializeField] HealthComponent health;
@@ -33,22 +34,12 @@ public class CharacterConfig : MonoBehaviour
 
     public void CharacterKilled()
     {
-        CharacterDestroyed(true);
-    }
-
-    public void CharacterDestroyed(bool destroy)
-    {
-        _damageable.OnDeath -= CharacterKilled;
-        OnCharacterDestroyed?.Invoke(this);
-
-        if (destroy)
-        {
-            Destroy(gameObject);
-        }
+        OnCharacterKilled?.Invoke(this);
+        Destroy(gameObject);
     }
 
     private void OnDestroy()
     {
-        CharacterDestroyed(false);
+        OnCharacterDestroyed?.Invoke(this);
     }
 }
