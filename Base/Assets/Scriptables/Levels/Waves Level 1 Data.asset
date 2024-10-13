@@ -14,20 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _waveDataList:
   - _enemies:
-    - {fileID: 11400000, guid: 084cab70e4c21d7438785c3def223d6c, type: 2}
-    _enemiesAmmount: 10
+    - {fileID: 11400000, guid: 35745635dc95304438b730bd042e4ac0, type: 2}
+    _enemiesAmmount: 50
     _minRateTime: 0.2
     _maxRateTime: 1
     _nextWaveTime: 0
   - _enemies:
     - {fileID: 11400000, guid: 35745635dc95304438b730bd042e4ac0, type: 2}
-    _enemiesAmmount: 20
+    _enemiesAmmount: 5
     _minRateTime: 0.2
-    _maxRateTime: 0.8
-    _nextWaveTime: 0
-  - _enemies:
-    - {fileID: 11400000, guid: 35745635dc95304438b730bd042e4ac0, type: 2}
-    _enemiesAmmount: 40
-    _minRateTime: 0.2
-    _maxRateTime: 0.5
+    _maxRateTime: 1
     _nextWaveTime: 0
