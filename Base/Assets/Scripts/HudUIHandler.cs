@@ -15,14 +15,19 @@ public class HudUIHandler : MonoBehaviour
     [SerializeField] TextMeshProUGUI scoreCounterText;
     [SerializeField] Button pauseButton;
 
+    [SerializeField] Button demolitionButton;
+    [SerializeField] Sprite demolitionEnableSprite, demolitionDisableSprite;
+
     void Start()
     {
         manager = ServiceLocator.GetService<GameManager>();
 
         manager.Waves.WavesStarted += UpdateWaveCounter;
         manager.Score.ScoreChangedStarted += UpdateScoreCounter;
+        manager.Build.DemolitionStateChanged += UpdateDemolitionSprite;
 
         pauseButton.onClick.AddListener(() => manager.PauseGame());
+        demolitionButton.onClick.AddListener(() => manager.Build.ChangeDemolitionMode(manager.Build.GetDemolitionState() ? false : true));
 
         InstantiateItems();
     }
@@ -37,7 +42,8 @@ public class HudUIHandler : MonoBehaviour
                 GameObject itemGO = Instantiate(shopItem, shopScroll.content);
                 BuildableItemSO item = manager.LevelData.AvailableItems[index];
                 itemGO.GetComponent<Button>().onClick.AddListener(() => manager.Build.SelectItem(item));
-                itemGO.transform.Find("Icon").GetComponent<Image>().sprite = item.Icon;
+                itemGO.transform.Find("ShopUIItem/Icon").GetComponent<Image>().sprite = item.Icon;
+                itemGO.transform.Find("ShopUIItem/PriceGroup/PriceText").GetComponent<TextMeshProUGUI>().text = item.Cost.ToString();
             }
 
             manager.Build.SelectItem(manager.LevelData.AvailableItems[0]);
@@ -52,5 +58,10 @@ public class HudUIHandler : MonoBehaviour
     public void UpdateScoreCounter(int score)
     {
         scoreCounterText.text = score.ToString();
+    }
+
+    public void UpdateDemolitionSprite(bool activated)
+    {
+        demolitionButton.image.sprite = activated ? demolitionEnableSprite : demolitionDisableSprite;
     }
 }
