@@ -33,19 +33,23 @@ public class MissileTurret : TurretBehaviorBase
 
     public override void Shoot()
     {
-        for (int i = 0; i < nearestTargets.Count; i++)
+        if (nearestTargets.Count > 0)
         {
-            if (nearestTargets[i] != null)
+            for (int i = 0; i < nearestTargets.Count; i++)
             {
-                GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);
-                BulletController bullet = bulletGO.GetComponent<BulletController>();
-
-                if (bullet != null)
+                if (nearestTargets[i] != null)
                 {
-                    bullet.Seek(nearestTargets[i]);
+                    GameObject bulletGO = Instantiate(bulletPrefab, firePoints[i].position, firePoints[i].rotation);
+                    BulletController bullet = bulletGO.GetComponent<BulletController>();
+
+                    if (bullet != null)
+                    {
+                        bullet.Seek(nearestTargets[i]);
+                    }
                 }
             }
         }
+       
     }
 
     public List<Transform> GetNearestTargets(Collider[] colliders)
