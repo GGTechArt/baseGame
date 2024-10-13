@@ -9,10 +9,16 @@ public class OptionsUIHandler : MonoBehaviour
     [SerializeField] Slider sfxSlider;
     [SerializeField] Toggle fullscreenToggle;
 
+    [SerializeField] Button backButton;
+
+    [SerializeField] GameObject mainMenuPanel;
+
     AudioManager audioManager;
 
     private void Start()
     {
+        backButton.onClick.AddListener(() => BackButton());
+
         audioManager = ServiceLocator.GetService<AudioManager>();
 
         musicSlider.onValueChanged.AddListener(delegate
@@ -42,7 +48,13 @@ public class OptionsUIHandler : MonoBehaviour
 
     public void UpdateMusicSlider(float volume)
     {
-        Debug.Log("Music "+volume);
+        Debug.Log("Music " + volume);
         musicSlider.value = volume;
+    }
+
+    public void BackButton()
+    {
+        mainMenuPanel.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 }

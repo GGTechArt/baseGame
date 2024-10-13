@@ -1346,7 +1346,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5356819527218507314}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30d6153c2ff051642a946e2d7cf65983, type: 3}
   m_Name: 
@@ -1354,6 +1354,8 @@ MonoBehaviour:
   musicSlider: {fileID: 369358194020717082}
   sfxSlider: {fileID: 4324332641801259508}
   fullscreenToggle: {fileID: 3303551210477343346}
+  backButton: {fileID: 5586308232884053454}
+  mainMenuPanel: {fileID: 0}
 --- !u!1 &5394123376446052189
 GameObject:
   m_ObjectHideFlags: 0
