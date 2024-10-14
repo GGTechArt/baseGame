@@ -34,6 +34,6 @@ MonoBehaviour:
   - _enemies:
     - {fileID: 11400000, guid: 084cab70e4c21d7438785c3def223d6c, type: 2}
     _enemiesAmmount: 16
-    _minRateTime: 4
-    _maxRateTime: 5
+    _minRateTime: 2
+    _maxRateTime: 4
     _nextWaveTime: 4

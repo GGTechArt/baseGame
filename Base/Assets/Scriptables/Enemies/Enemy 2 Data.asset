@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Enemy 2 Data
   m_EditorClassIdentifier: 
   _prefab: {fileID: 7940044981028778875, guid: a97d36c077342cd4cbf380387a124458, type: 3}
-  _movementSpeed: 1
-  _health: 50
+  _movementSpeed: 0.1
+  _health: 20
   _type: 0
-  _killedScore: 25
+  _killedScore: 20

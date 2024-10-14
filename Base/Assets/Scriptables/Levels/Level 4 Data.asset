@@ -15,7 +15,7 @@ MonoBehaviour:
   _levelID: Level 4
   _sceneName: Lvl_Four_Scene
   _waves: {fileID: 11400000, guid: e5a9ce251ba2dab4ea17d7bf20d0e7ee, type: 2}
-  _starsValues: 110000002300000047000000
+  _starsValues: 2a0000005500000056000000
   _availableItems:
   - {fileID: 11400000, guid: 9dd32fc0007f3d648bfb2347411904a1, type: 2}
   - {fileID: 11400000, guid: 2f95045dfca4bd74096916c5c23062a3, type: 2}

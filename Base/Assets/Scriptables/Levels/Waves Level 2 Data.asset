@@ -28,18 +28,18 @@ MonoBehaviour:
   - _enemies:
     - {fileID: 11400000, guid: 084cab70e4c21d7438785c3def223d6c, type: 2}
     _enemiesAmmount: 22
-    _minRateTime: 3
-    _maxRateTime: 4
+    _minRateTime: 1
+    _maxRateTime: 3
     _nextWaveTime: 1
   - _enemies:
     - {fileID: 11400000, guid: 084cab70e4c21d7438785c3def223d6c, type: 2}
     _enemiesAmmount: 36
-    _minRateTime: 3
-    _maxRateTime: 4
+    _minRateTime: 0.4
+    _maxRateTime: 2
     _nextWaveTime: 1
   - _enemies:
     - {fileID: 11400000, guid: 084cab70e4c21d7438785c3def223d6c, type: 2}
     _enemiesAmmount: 50
-    _minRateTime: 3
-    _maxRateTime: 4
+    _minRateTime: 0.5
+    _maxRateTime: 2
     _nextWaveTime: 1
