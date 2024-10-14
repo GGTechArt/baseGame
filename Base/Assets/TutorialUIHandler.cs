@@ -21,8 +21,8 @@ public class TutorialUIHandler : MonoBehaviour
     {
         group = gameObject.GetComponent<CanvasGroup>();
 
-        groupAlpha = group.alpha;
-        textAlpha = text.alpha;
+        //groupAlpha = group.alpha;
+        //textAlpha = text.alpha;
     }
 
     // Update is called once per frame
