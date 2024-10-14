@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using UnityEngine;
 
 public class BasicTurret : TurretBehaviorBase
@@ -77,16 +78,30 @@ public class BasicTurret : TurretBehaviorBase
 
         if (targets.Length > 0)
         {
-            foreach (var item in targets)
-            {
-                float distance = Vector3.Distance(transform.position, item.transform.position);
+            bool newTarget = true;
 
-                if (distance < shortestDistance)
+            if (target != null)
+            {
+                if (targets.ToList().Exists(x => x.transform == target))
                 {
-                    shortestDistance = distance;
-                    target = item.transform;
+                    newTarget = false;
                 }
             }
+
+            if (newTarget)
+            {
+                foreach (var item in targets)
+                {
+                    float distance = Vector3.Distance(transform.position, item.transform.position);
+
+                    if (distance < shortestDistance)
+                    {
+                        shortestDistance = distance;
+                        target = item.transform;
+                    }
+                }
+            }
+
         }
         else
         {

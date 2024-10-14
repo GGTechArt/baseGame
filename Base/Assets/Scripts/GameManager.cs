@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public enum GameState
 {
@@ -25,9 +26,13 @@ public class GameManager : ServiceInstallerBase<GameManager>
     public ScoreController Score { get => _score; set => _score = value; }
     [SerializeField] ScoreController _score;
     public LevelEvaluatorController Evaluator { get => _evaluator; set => _evaluator = value; }
+    public bool Tutorial { get => _tutorial; set => _tutorial = value; }
+
     [SerializeField] LevelEvaluatorController _evaluator;
 
     GameState currentState;
+
+    [SerializeField] bool _tutorial = false;
 
     private void Awake()
     {
@@ -60,7 +65,11 @@ public class GameManager : ServiceInstallerBase<GameManager>
     {
         ChangeStateGame(GameState.PLAYING, 1);
         _timer.OnTimeFinished -= StartGame;
-        _waves.SpawnWave();
+
+        if (!_tutorial)
+        {
+            _waves.SpawnWave();
+        }
     }
 
     public void PauseGame()
@@ -88,6 +97,11 @@ public class GameManager : ServiceInstallerBase<GameManager>
     {
         currentState = newState;
         GameStateChanged?.Invoke(currentState);
+        ChangeTimeScale(timeScale);
+    }
+
+    public void ChangeTimeScale(float timeScale)
+    {
         Time.timeScale = timeScale;
     }
 }
