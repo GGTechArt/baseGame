@@ -16,8 +16,7 @@ public class HudUIHandler : MonoBehaviour
     [SerializeField] Button pauseButton;
 
     [SerializeField] Button demolitionButton;
-    [SerializeField] Image demolitionState;
-    [SerializeField] Color demolitionEnableColor, demolitionDisableColor;
+    [SerializeField] Sprite demolitionEnableSprite, demolitionDisableSprite;
 
     void Start()
     {
@@ -63,6 +62,6 @@ public class HudUIHandler : MonoBehaviour
 
     public void UpdateDemolitionSprite(bool activated)
     {
-        demolitionState.color = activated ? demolitionEnableColor : demolitionDisableColor;
+        demolitionButton.image.sprite = activated ? demolitionEnableSprite : demolitionDisableSprite;
     }
 }
