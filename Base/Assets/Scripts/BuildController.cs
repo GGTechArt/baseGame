@@ -5,6 +5,14 @@ public class BuildController : MonoBehaviour
     public delegate void DemolitionStateChangedDelegate(bool activated);
     public DemolitionStateChangedDelegate DemolitionStateChanged;
 
+    public delegate void BuildStateHandler(IBuildable buildable);
+    public BuildStateHandler BuildPlaced;
+    public BuildStateHandler BuildUpdated;
+    public BuildStateHandler BuildDemolished;
+
+    public delegate void ItemSelectedHandler(BuildableItemSO newItem);
+    public ItemSelectedHandler ItemSelected;
+
     [SerializeField] BuildableItemSO itemSelected;
     GameManager manager;
 
@@ -20,6 +28,7 @@ public class BuildController : MonoBehaviour
     public void SelectItem(BuildableItemSO newItem)
     {
         itemSelected = newItem;
+        ItemSelected?.Invoke(itemSelected);
     }
 
     public BuildableItemSO GetSelectedItem()
@@ -74,10 +83,12 @@ public class BuildController : MonoBehaviour
         IBuildable buildable = itemGO.GetComponent<IBuildable>();
         buildable.Configure(scriptable);
         node.SetBuild(buildable);
+        BuildPlaced?.Invoke(buildable);
     }
 
     public void UpdateBuild(IBuildable buildable)
     {
+        BuildUpdated?.Invoke(buildable);
         buildable.Update();
         manager.Score.RemoveScore(buildable.data.Cost);
     }
@@ -91,6 +102,7 @@ public class BuildController : MonoBehaviour
             manager.Score.AddScore(cost);
             buildable.Demolished();
             ChangeDemolitionMode(false);
+            BuildDemolished?.Invoke(buildable);
         }
     }
 

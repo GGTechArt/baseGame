@@ -12,8 +12,13 @@ public class WavesController : MonoBehaviour
     public delegate void WavesFinishedHandler();
     public WavesFinishedHandler WavesFinished;
 
+    public delegate void WaveFinishedHandler();
+    public WaveFinishedHandler WaveFinished;
+
     public delegate void EnemiesKilledHandler();
     public EnemiesKilledHandler EnemiesKilled;
+
+    GameManager manager;
 
     LevelDataSO levelData;
 
@@ -32,7 +37,8 @@ public class WavesController : MonoBehaviour
 
     public void InitializeComponent()
     {
-        levelData = ServiceLocator.GetService<GameManager>().LevelData;
+        manager = ServiceLocator.GetService<GameManager>();
+        levelData = manager.LevelData;
         wavesData = levelData.Waves;
 
         CharacterConfig.OnCharacterDestroyed += EnemyDestroyed;
@@ -96,9 +102,17 @@ public class WavesController : MonoBehaviour
     }
     public void NextWave()
     {
-        enemySpawnCooldown = -1;
-        nextWaveCooldown = currentWaveData.NextWaveTime;
-        waveIndex++;
+        if (waveIndex + 1 < wavesData.WaveDataList.Count)
+        {
+            enemySpawnCooldown = -1;
+            nextWaveCooldown = currentWaveData.NextWaveTime;
+            waveIndex++;
+        }
+
+        else
+        {
+            WavesFinished?.Invoke();
+        }
     }
 
     public void EnemyKilled(CharacterConfig character)
@@ -119,17 +133,15 @@ public class WavesController : MonoBehaviour
 
             if (enemies.Count <= 0)
             {
-                if (waveIndex + 1 < wavesData.WaveDataList.Count)
-                {
-                    NextWave();
-                }
-
-                else
-                {
-                    WavesFinished?.Invoke();
-                }
+                WaveFinished?.Invoke();
+                NextWave();
             }
         }
+    }
+
+    public void ChangeNextWaveCooldown(float newCooldown)
+    {
+        nextWaveCooldown = newCooldown;
     }
 
     public int GetEnemiesKilled()
