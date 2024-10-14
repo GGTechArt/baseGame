@@ -13,9 +13,11 @@ public class HudUIHandler : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI waveCounterText;
     [SerializeField] TextMeshProUGUI scoreCounterText;
+    [SerializeField] TextMeshProUGUI speedText;
     [SerializeField] Button pauseButton;
 
     [SerializeField] Button demolitionButton;
+    [SerializeField] Button speedButton;
     [SerializeField] Sprite demolitionEnableSprite, demolitionDisableSprite;
 
     void Start()
@@ -25,9 +27,12 @@ public class HudUIHandler : MonoBehaviour
         manager.Waves.WavesStarted += UpdateWaveCounter;
         manager.Score.ScoreChangedStarted += UpdateScoreCounter;
         manager.Build.DemolitionStateChanged += UpdateDemolitionSprite;
+        manager.timeChanged += UpdateSpeedButton;
+        manager.GameStateChanged += GameStateChanged;
 
         pauseButton.onClick.AddListener(() => manager.PauseGame());
         demolitionButton.onClick.AddListener(() => manager.Build.ChangeDemolitionMode(manager.Build.GetDemolitionState() ? false : true));
+        speedButton.onClick.AddListener(() => manager.NextTimeScale());
 
         InstantiateItems();
     }
@@ -63,5 +68,32 @@ public class HudUIHandler : MonoBehaviour
     public void UpdateDemolitionSprite(bool activated)
     {
         demolitionButton.image.sprite = activated ? demolitionEnableSprite : demolitionDisableSprite;
+    }
+    public void UpdateSpeedButton(float newSpeed)
+    {
+        speedText.text = newSpeed.ToString();
+    }
+
+    public void GameStateChanged(GameState state)
+    {
+        switch (state)
+        {
+            case GameState.PREPARE:
+                speedButton.interactable = true;
+                demolitionButton.interactable = true;
+                break;
+            case GameState.PLAYING:
+                speedButton.interactable = true;
+                demolitionButton.interactable = true;
+                break;
+            case GameState.PAUSED:
+                speedButton.interactable = false;
+                demolitionButton.interactable = false;
+                break;
+            case GameState.FINISHED:
+                speedButton.interactable = false;
+                demolitionButton.interactable = false;
+                break;
+        }
     }
 }

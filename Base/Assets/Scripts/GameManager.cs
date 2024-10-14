@@ -15,6 +15,9 @@ public class GameManager : ServiceInstallerBase<GameManager>
     public delegate void GameStateChandeDelegate(GameState newState);
     public GameStateChandeDelegate GameStateChanged;
 
+    public delegate void TimeScaleChangedDelegate(float newTime);
+    public TimeScaleChangedDelegate timeChanged;
+
     public LevelDataSO LevelData { get => _levelData; set => _levelData = value; }
     [SerializeField] LevelDataSO _levelData;
     public TimerController Timer { get => _timer; set => _timer = value; }
@@ -103,5 +106,29 @@ public class GameManager : ServiceInstallerBase<GameManager>
     public void ChangeTimeScale(float timeScale)
     {
         Time.timeScale = timeScale;
+        timeChanged?.Invoke(timeScale);
+    }
+
+    public void NextTimeScale()
+    {
+        switch (Time.timeScale)
+        {
+            case 1:
+                ChangeTimeScale(2);
+                break;
+
+            case 2:
+                ChangeTimeScale(3);
+                break;
+
+            case 3:
+                ChangeTimeScale(1);
+                break;
+        }
+    }
+
+    public GameState GetCurrentState()
+    {
+        return currentState;
     }
 }

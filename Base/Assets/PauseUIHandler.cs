@@ -23,7 +23,7 @@ public class PauseUIHandler : MonoBehaviour
         group = GetComponent<CanvasGroup>();
 
         resumeButton.onClick.AddListener(() => manager.ResumeGame());
-        exitButton.onClick.AddListener(() => Application.Quit());
+        exitButton.onClick.AddListener(() => scenes.ChangeScene("MainMenuScene"));
         retryButton.onClick.AddListener(() => scenes.ReloadScene());
     }
 

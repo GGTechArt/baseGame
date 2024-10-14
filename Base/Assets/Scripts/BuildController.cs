@@ -38,7 +38,7 @@ public class BuildController : MonoBehaviour
 
     public bool TryBuild(Node node)
     {
-        if (manager.Score.ValidateScore(itemSelected.Cost))
+        if (manager.Score.ValidateScore(itemSelected.Cost) && manager.GetCurrentState() != GameState.PAUSED)
         {
             Build(node);
             return true;
@@ -53,7 +53,7 @@ public class BuildController : MonoBehaviour
 
     public bool TryUpdate(IBuildable buildable)
     {
-        if (manager.Score.ValidateScore(buildable.data.Cost))
+        if (manager.Score.ValidateScore(buildable.data.Cost) && manager.GetCurrentState() != GameState.PAUSED)
         {
             if (buildable.TryUpdate())
             {
