@@ -150,12 +150,13 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
-  range: 6
+  range: 10
   lastTarget: {fileID: 0}
   target: {fileID: 0}
   rotationSpeed: 200
   rotationPart: {fileID: 3282208640437859653}
   returnCooldown: 3
+  returnCooldownTime: 0
 --- !u!1001 &3028114547429429934
 PrefabInstance:
   m_ObjectHideFlags: 0
