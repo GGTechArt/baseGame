@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: Multiple Turret Updates Data
   m_EditorClassIdentifier: 
   _updatesList:
-  - _fireRate: 1
-    _speed: 0
+  - _fireRate: 5
     _prefab: {fileID: 4945678484385422463, guid: f51ce9f40f69ef942b5c726171ffcde4, type: 3}
-  - _fireRate: 0.5
-    _speed: 0
+  - _fireRate: 2.5
     _prefab: {fileID: 0}
