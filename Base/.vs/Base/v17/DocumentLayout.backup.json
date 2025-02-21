@@ -3,48 +3,286 @@
   "WorkspaceRootPath": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\tutorialuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\optionsuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\optionsuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\mainmenuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\huduihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\huduihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\wavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\handleobjectswithaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\handleobjectswithaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\basicturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\basicturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\buildcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buildcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\characterconfig.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterconfig.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\gameoveruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoveruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\destroytemporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroytemporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\turretscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\turretbehaviorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretbehaviorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\missileturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\missileturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\audioclipsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audioclipsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\levelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\03. base\\basedamageable.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\03. base\\basedamageable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\enemydataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\enemydataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\buttonsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\turretupdatesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretupdatesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\healthuibar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthuibar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\lookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lookat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\waypoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\waypoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\navmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\navmeshmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\livesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\livesui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\levelevaluatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelevaluatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\quantaui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\quantaui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\leveldataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\leveldataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\servicelocator\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\servicelocator\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\leveldata.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveldata.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\levelselectoruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\levelselectoruihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\03. base\\basedamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\03. base\\basedamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\healthcomponent.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthcomponent.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\towerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\towerso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\01. interfaces\\ibuildable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\01. interfaces\\ibuildable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\turretstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turretstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\updatesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\updatesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\buildableitemso.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\buildableitemso.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\updatestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\updatestats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\buildmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\characterso.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\characterso.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\worlddataso.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\worlddataso.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,143 +292,921 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:58:51.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\GameManager.cs",
-              "RelativeToolTip": "Assets\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:53:57.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LivesUI.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\LivesUI.cs",
-              "RelativeDocumentMoniker": "Assets\\LivesUI.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\LivesUI.cs",
-              "RelativeToolTip": "Assets\\LivesUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:44:34.769Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WaveSpawner.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:27:46.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuantaUI.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\QuantaUI.cs",
-              "RelativeDocumentMoniker": "Assets\\QuantaUI.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\QuantaUI.cs",
-              "RelativeToolTip": "Assets\\QuantaUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T05:26:34.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Turret.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Turret.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Turret.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:58:52.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnemyMovement.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\EnemyMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\EnemyMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:57:34.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\PlayerStats.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\PlayerStats.cs",
-              "RelativeToolTip": "Assets\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T04:35:22.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Shop.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Shop.cs",
-              "RelativeDocumentMoniker": "Assets\\Shop.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Shop.cs",
-              "RelativeToolTip": "Assets\\Shop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T22:15:59.055Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BuildManager.cs",
-              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\BuildManager.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildManager.cs",
-              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\BuildManager.cs",
-              "RelativeToolTip": "Assets\\BuildManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABRAAAAAAAAAA==",
+              "Title": "BuildController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BuildController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BuildController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BuildController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BuildController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T01:58:34.693Z"
+              "WhenOpened": "2024-10-09T15:35:17.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScoreController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScoreController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScoreController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:36:39.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Node.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Node.cs",
               "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Node.cs",
               "RelativeToolTip": "Assets\\Scripts\\Node.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwDwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T23:12:03.978Z"
+              "WhenOpened": "2024-10-01T20:06:39.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DestroyTemporal.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DestroyTemporal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyTemporal.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DestroyTemporal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyTemporal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:53:59.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasicTurret.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BasicTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BasicTurret.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BasicTurret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BasicTurret.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:57:44.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenuUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MainMenuUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MainMenuUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuUIHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:10:06.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:36:46.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BulletController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BulletController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BulletController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:29:02.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DataManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DataManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DataManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DataManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:58:14.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HudUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HudUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HudUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HudUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HudUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T00:18:00.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TutorialUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\TutorialUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\TutorialUIHandler.cs",
+              "RelativeToolTip": "Assets\\TutorialUIHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:14:50.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OptionsUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\OptionsUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\OptionsUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\OptionsUIHandler.cs",
+              "RelativeToolTip": "Assets\\OptionsUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:15:45.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WavesController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WavesController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WavesController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WavesController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WavesController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAswIgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:32:12.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HandleObjectsWithAction.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HandleObjectsWithAction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HandleObjectsWithAction.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HandleObjectsWithAction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HandleObjectsWithAction.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwE8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:59:50.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CharacterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\CharacterConfig.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterConfig.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\CharacterConfig.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterConfig.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:26:26.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TurretsController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretsController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretsController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretsController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretsController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T00:07:45.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameOverUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameOverUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameOverUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameOverUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:03:33.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TurretBehaviorBase.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretBehaviorBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretBehaviorBase.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretBehaviorBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretBehaviorBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:59:38.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MissileTurret.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MissileTurret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MissileTurret.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MissileTurret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MissileTurret.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T01:25:14.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Installers\\AudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:57:18.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AudioClipsSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\AudioClipsSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioClipsSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\AudioClipsSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioClipsSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T05:34:47.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LevelSelector.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelector.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSelector.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAuwCcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:01:51.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaseDamageable.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\03. Base\\BaseDamageable.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\03. Base\\BaseDamageable.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADgvwoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:34:25.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EnemyDataSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:30:23.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LookAt.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LookAt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LookAt.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LookAt.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LookAt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:20:13.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HealthUIBar.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthUIBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthUIBar.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthUIBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthUIBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:34:17.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ButtonSounds.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ButtonSounds.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonSounds.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ButtonSounds.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonSounds.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T17:32:38.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TurretUpdatesSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretUpdatesSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretUpdatesSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretUpdatesSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretUpdatesSO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:45:28.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Waypoints.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Waypoints.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Waypoints.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Waypoints.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Waypoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:01:17.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SceneContextInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:59:58.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:59:04.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "MissileTurret.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAkwFcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:12:29.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NavmeshMovement.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\NavmeshMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NavmeshMovement.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\NavmeshMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NavmeshMovement.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T03:40:38.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "MainMenuUIHandler.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:07:37.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AudioController.cs",
+              "DocumentMoniker": "C:\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
+              "ToolTip": "C:\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:47:52.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LevelEvaluatorController.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelEvaluatorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelEvaluatorController.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelEvaluatorController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelEvaluatorController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T06:11:38.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "TurretsController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:51:49.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LevelDataSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:32:29.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ServiceLocator.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:24:03.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ServiceInstallerManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:54:43.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProjectContextInstaller.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:57:29.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelData.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:15:03.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UserData.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UserData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UserData.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UserData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UserData.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawBcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:38:22.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ScenesManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScenesManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScenesManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScenesManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScenesManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:48:45.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "WorldDataSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:07:37.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LevelSelectorUIHandler.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelectorUIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelectorUIHandler.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelectorUIHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LevelSelectorUIHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:01:23.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "PressetsLevelDataTemp.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T21:34:48.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BaseDamager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\03. Base\\BaseDamager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\03. Base\\BaseDamager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:25:20.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CharacterSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:31:52.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthComponent.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthComponent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HealthComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:30:58.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TowerSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:39:31.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IBuildable.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:23:45.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TurretStats.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurretStats.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurretStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:39:11.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdatesSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdatesSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UpdatesSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdatesSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UpdatesSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:46:17.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BuildableItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:40:33.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateStats.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdateStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UpdateStats.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdateStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UpdateStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:41:27.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BuildManager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:26:57.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IHealth.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T15:58:42.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IAgentMovable.cs",
+              "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "ToolTip": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T19:45:28.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "HealthComponent.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T03:27:46.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICurable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:37:25.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:19:59.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T15:20:15.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HealthUIBar.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowD0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:22:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CharacterController.cs",
+              "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "ToolTip": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAADABAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T20:02:25.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T23:22:53.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "BaseDamager.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:16:21.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "BaseDamageable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:19:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BaseCurable.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwBYAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T01:44:07.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "WaveSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WaveSpawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:45:03.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "WaveDataSO.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T15:05:36.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "WaveData.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T21:20:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TimerController.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T01:45:02.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ServiceInstallerBase.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T22:55:48.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IAudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "RelativeToolTip": "Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T23:51:41.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LookAt.cs",
+              "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "ToolTip": "C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T19:35:21.134Z"
             }
           ]
         }
