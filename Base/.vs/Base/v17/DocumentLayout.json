@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F1BC78A9-7385-298E-F168-5B4229AAB3BF}|Assembly-CSharp-firstpass.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\plugins\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1BC78A9-7385-298E-F168-5B4229AAB3BF}|Assembly-CSharp-firstpass.csproj|solutionrelative:assets\\plugins\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|c:\\users\\gerga\\documents\\github\\basegame\\base\\assets\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\tutorialuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\optionsuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\optionsuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\mainmenuuihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\missileturret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\audioclipsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audioclipsso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -136,22 +128,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\02. scriptables\\leveldataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\02. scriptables\\leveldataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\scenecontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\servicelocator\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\servicelocator\\servicelocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\serviceinstallermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\managers\\projectcontextinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\scenesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -210,14 +186,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wavespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\installers\\serviceinstallerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{3E8CD1B9-F3D9-5977-B930-E161D52454B0}|Assembly-CSharp.csproj|solutionrelative:assets\\installsystem\\interfaces\\iaudiomanager.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -283,6 +251,42 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\TutorialUIHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TutorialUIHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\OptionsUIHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\OptionsUIHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Installers\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\InstallSystem\\Interfaces\\IAudioManager.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -292,11 +296,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Plugins\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Plugins\\InstallSystem\\Installers\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Plugins\\InstallSystem\\Installers\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Plugins\\InstallSystem\\Installers\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T01:42:51.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BuildController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BuildController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BuildController.cs",
@@ -308,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ScoreController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScoreController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreController.cs",
@@ -320,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Node.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Node.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Node.cs",
@@ -332,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "DestroyTemporal.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DestroyTemporal.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyTemporal.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "BasicTurret.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BasicTurret.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BasicTurret.cs",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainMenuUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MainMenuUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuUIHandler.cs",
@@ -368,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BulletController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\BulletController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletController.cs",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\DataManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DataManager.cs",
@@ -405,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "HudUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HudUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HudUIHandler.cs",
@@ -417,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 68,
               "Title": "TutorialUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\TutorialUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\TutorialUIHandler.cs",
@@ -429,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 69,
               "Title": "OptionsUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\OptionsUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\OptionsUIHandler.cs",
@@ -441,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "WavesController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WavesController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WavesController.cs",
@@ -453,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "HandleObjectsWithAction.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HandleObjectsWithAction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HandleObjectsWithAction.cs",
@@ -465,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "CharacterConfig.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\CharacterConfig.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterConfig.cs",
@@ -477,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "TurretsController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretsController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurretsController.cs",
@@ -489,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "GameOverUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\GameOverUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverUIHandler.cs",
@@ -501,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "TurretBehaviorBase.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretBehaviorBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurretBehaviorBase.cs",
@@ -513,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "MissileTurret.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\MissileTurret.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MissileTurret.cs",
@@ -525,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 70,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\AudioManager.cs",
@@ -537,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "AudioClipsSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\AudioClipsSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioClipsSO.cs",
@@ -549,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "LevelSelector.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelector.cs",
@@ -561,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "BaseDamageable.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamageable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\03. Base\\BaseDamageable.cs",
@@ -573,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "EnemyDataSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\EnemyDataSO.cs",
@@ -585,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 25,
               "Title": "LookAt.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LookAt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LookAt.cs",
@@ -597,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 24,
               "Title": "HealthUIBar.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthUIBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthUIBar.cs",
@@ -609,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 22,
               "Title": "ButtonSounds.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ButtonSounds.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonSounds.cs",
@@ -621,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "TurretUpdatesSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretUpdatesSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurretUpdatesSO.cs",
@@ -633,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "Waypoints.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\Waypoints.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Waypoints.cs",
@@ -645,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 71,
               "Title": "SceneContextInstaller.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\SceneContextInstaller.cs",
@@ -657,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 27,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMovement.cs",
@@ -669,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 65,
               "Title": "MissileTurret.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MissileTurret.cs",
@@ -681,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "NavmeshMovement.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\NavmeshMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NavmeshMovement.cs",
@@ -693,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 66,
               "Title": "MainMenuUIHandler.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\MainMenuUIHandler.cs",
@@ -705,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "AudioController.cs",
               "DocumentMoniker": "C:\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Mercadeo-Island\\Assets\\Scripts\\Managers\\AudioController.cs",
@@ -717,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "LevelEvaluatorController.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelEvaluatorController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelEvaluatorController.cs",
@@ -729,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 67,
               "Title": "TurretsController.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TurretsController.cs",
@@ -741,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "LevelDataSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\LevelDataSO.cs",
@@ -753,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 72,
               "Title": "ServiceLocator.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\ServiceLocator\\ServiceLocator.cs",
@@ -765,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 73,
               "Title": "ServiceInstallerManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ServiceInstallerManager.cs",
@@ -777,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 74,
               "Title": "ProjectContextInstaller.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Managers\\ProjectContextInstaller.cs",
@@ -789,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 34,
               "Title": "LevelData.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelData.cs",
@@ -801,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 33,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UserData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UserData.cs",
@@ -813,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 32,
               "Title": "ScenesManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\ScenesManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScenesManager.cs",
@@ -825,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 61,
               "Title": "WorldDataSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\WorldDataSO.cs",
@@ -837,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 35,
               "Title": "LevelSelectorUIHandler.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\LevelSelectorUIHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LevelSelectorUIHandler.cs",
@@ -849,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 64,
               "Title": "PressetsLevelDataTemp.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\04. Temps\\PressetsLevelDataTemp.cs",
@@ -861,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 36,
               "Title": "BaseDamager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\03. Base\\BaseDamager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\03. Base\\BaseDamager.cs",
@@ -873,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 60,
               "Title": "CharacterSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\CharacterSO.cs",
@@ -885,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 37,
               "Title": "HealthComponent.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\HealthComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthComponent.cs",
@@ -897,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 38,
               "Title": "TowerSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\TowerSO.cs",
@@ -909,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 39,
               "Title": "IBuildable.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\01. Interfaces\\IBuildable.cs",
@@ -921,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 40,
               "Title": "TurretStats.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\TurretStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurretStats.cs",
@@ -933,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 41,
               "Title": "UpdatesSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdatesSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UpdatesSO.cs",
@@ -945,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 42,
               "Title": "BuildableItemSO.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\02. Scriptables\\BuildableItemSO.cs",
@@ -957,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 43,
               "Title": "UpdateStats.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\UpdateStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UpdateStats.cs",
@@ -969,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 62,
               "Title": "BuildManager.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\BuildManager.cs",
@@ -981,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 51,
               "Title": "IHealth.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\IHealth.cs",
@@ -993,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 45,
               "Title": "IAgentMovable.cs",
               "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Structs\\Interfaces\\IAgentMovable.cs",
@@ -1005,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 50,
               "Title": "HealthComponent.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthComponent.cs",
@@ -1017,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 49,
               "Title": "ICurable.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\ICurable.cs",
@@ -1029,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 48,
               "Title": "IDamageable.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Interfaces\\IDamageable.cs",
@@ -1041,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 63,
               "Title": "Shop.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Shop.cs",
@@ -1053,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 47,
               "Title": "HealthUIBar.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\HealthUIBar.cs",
@@ -1065,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 44,
               "Title": "CharacterController.cs",
               "DocumentMoniker": "C:\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\Lunatic\\Assets\\Scripts\\Controllers\\CharacterController.cs",
@@ -1077,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 52,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\PlayerStats.cs",
@@ -1089,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 53,
               "Title": "BaseDamager.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamager.cs",
@@ -1101,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 54,
               "Title": "BaseDamageable.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseDamageable.cs",
@@ -1113,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 55,
               "Title": "BaseCurable.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\BaseCurable.cs",
@@ -1125,7 +1142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 46,
               "Title": "WaveSpawner.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\Scripts\\WaveSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WaveSpawner.cs",
@@ -1137,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 56,
               "Title": "WaveDataSO.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\Scripts\\Scriptables\\WaveDataSO.cs",
@@ -1149,7 +1166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 57,
               "Title": "WaveData.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\WaveData.cs",
@@ -1161,7 +1178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 58,
               "Title": "TimerController.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\TimerController.cs",
@@ -1173,7 +1190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 75,
               "Title": "ServiceInstallerBase.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Installers\\ServiceInstallerBase.cs",
@@ -1185,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 76,
               "Title": "IAudioManager.cs",
               "DocumentMoniker": "C:\\Users\\gerga\\Documents\\GitHub\\baseGame\\Base\\Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\InstallSystem\\Interfaces\\IAudioManager.cs",
@@ -1197,7 +1214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 59,
               "Title": "LookAt.cs",
               "DocumentMoniker": "C:\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Unity\\baseGame\\Base\\Assets\\LookAt.cs",

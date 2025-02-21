@@ -1,0 +1,54 @@
+Assets/
+├── _Project/                 (Opcional: Configuración global)
+│   ├── Settings/             (Presets, InputManager, Physics, etc.)
+│   ├── Documentation/        (Design Docs, Diagramas)
+│
+├── Animations/               (Animaciones y controladores)
+│   ├── Characters/
+│   ├── UI/
+│
+├── Audio/                    
+│   ├── Music/                (Banda sonora)
+│   ├── SFX/                  (Efectos de sonido)
+│   ├── Voiceovers/
+│
+├── Editor/                   (Scripts de Editor personalizados)
+│
+├── Materials/                (Materiales y shaders)
+│   ├── Shaders/              (Custom Shaders)
+│
+├── Models/                   (Modelos 3D y FBX)
+│   ├── Characters/
+│   ├── Environment/
+│
+├── Plugins/                  (SDKs externos, DLLs)
+│
+├── Prefabs/                  (Prefabs organizados por funcionalidad)
+│   ├── Characters/
+│   ├── Environment/
+│   ├── UI/
+│
+├── Resources/                (Assets cargados dinámicamente vía código)
+│
+├── Scenes/                   (Escenas del juego)
+│   ├── Levels/               (Ej: Level_01.unity, Level_02.unity)
+│   ├── UI/                   (Menús)
+│
+├── Scripts/                  (Todos los scripts en subcarpetas)
+│   ├── Core/                 (GameManager, EventSystem)
+│   ├── Characters/           (Player, NPCs)
+│   ├── UI/
+│
+├── Textures/                 (Texturas, Sprites, Normal Maps)
+│   ├── UI/                   (Iconos, Fondos)
+│   ├── Environment/
+│
+├── UI/                       (Assets específicos de UI)
+│   ├── Fonts/
+│   ├── Sprites/
+│
+├── StreamingAssets/          (Datos accesibles en runtime, como JSON)
+│
+├── ThirdParty/               (Assets de la Asset Store, no modificados)
+│
+└── Documentation/            (Guías, diseños, GDD)
